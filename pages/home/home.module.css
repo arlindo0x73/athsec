@@ -1,0 +1,359 @@
+@font-face{
+  font-family: 'NaumPen';
+  src: url('../../public/Fonts/NanumPenScript-Regular.ttf');
+}
+@font-face {
+  font-family: 'Lexend';
+  src: url('../../public/Fonts/LexendDeca.ttf');
+}
+
+.container{
+  height: 100%;
+ display: flex;
+ background:#141E2E;
+ display:flex;
+ align-items: center;
+ flex-direction: column;
+}
+
+.homeContent{
+  background-color: #141e2e;
+  width: 100%;
+  height:400px;
+  display: flex;
+  margin:100px 0px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.info{
+font-family: 'Lexend',sans-serif;
+margin: 20px;
+letter-spacing: 0.5px;
+font-weight: bold;
+color:#FF3857;
+font-size: 40px;
+}
+.secondInfo{
+font-family: 'Lexend',sans-serif;
+margin: 20px;
+font-weight: 100;
+color: #E5E5E5;
+font-size: 17px;
+}
+
+.homeImage img{
+width: 500px;
+}
+.homeButtons{
+  display: flex;
+  flex-direction: row;
+
+}
+.homeStart{
+  margin:5px 20px;
+  border: 0;
+  border-radius: 25px;
+  background: #FF3857;
+  outline: 0;
+  width:200px;
+  height: 40px;
+  font-family: 'NaumPen', cursive;
+color:#141E2E;
+font-size: 25px;
+  transition: all 0.5s;
+}
+.homeStart:hover{
+  transition: all 0.5s;
+  width:200px;
+  height: 40px;
+background: #F2BB02;
+color:#141E2E;
+}
+.homePlans{
+  color:#E3E3E3;
+  font-size: 25px;
+  outline: 0;
+  border:0;
+  background-color: transparent;
+  font-family: 'NaumPen', cursive;
+  transition: all 0.5s;
+}
+.homePlans:hover{
+  transition: all 0.5s;
+  color:#F2BB02;
+}
+.secondLogoText{
+  display: flex;
+  font-family: 'Lexend',
+  sans-serif;
+ justify-content: center;
+ align-items: center;
+
+  
+}
+.secondContactButton{
+
+border: 3px solid #23EAFF;
+border-radius: 25px;
+background: transparent;
+outline: 0;
+width:200px;
+height: 40px;
+font-family: 'NaumPen',
+cursive;
+color:#23EAFF;
+font-size: 25px;
+transition: all 0.5s;
+}
+.secondContactButton:hover{
+  transition: all 0.5s;
+background: #23EAFF;
+color:#141E2E;
+}
+.secondHomeContent{
+  width: 100%;
+  height: 100vh;
+}
+.secondHeader{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.secondLogoText svg{
+  width: 35px;
+  height: 35px;
+  margin:10px;
+}
+.secondLogoText h2{
+  font-size: 16px;
+  color: #23EAFF;
+  font-weight: bold;
+}
+.secondLogoText p {
+  font-size: 12px;
+  color: #23EAFF;
+}
+
+.secondHomeContentContainer{
+    background-color: #141e2e;
+    width: 100%;
+    height:400px;
+    display: flex;
+    margin:100px 0px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.secondHomeinfo{
+font-family: 'NaumPen',
+cursive;
+margin: 20px;
+letter-spacing: 0.5px;
+font-weight: bold;
+color:#23EAFF;
+font-size: 40px;
+}
+.secondHomeButons{
+  display: flex;
+  flex-direction: column;
+}
+.secondButton{
+  border: 0;
+  background: transparent;
+  outline: 0;
+  height: 40px;
+  font-family: 'Lexend',
+  sans-serif;
+  color:#FF3857;
+  padding-left:10px;
+  font-size: 13px;
+  transition: all 0.5s;
+}
+.secondButonsContainer{
+  padding-left:20px;
+display: flex;
+align-items:center;
+flex-direction: row;
+}
+.secondButonsContainer div{
+  width:30px;
+  height: 30px;
+  border-radius: 15px;
+}
+.secondAboutButtonContainer{
+  display: flex;
+  
+}
+.secondAboutButton{
+margin: 20px 40px;
+border: 3px solid #FF3857;
+border-radius: 25px;
+background: transparent;
+outline: 0;
+width:200px;
+height: 40px;
+font-family: 'NaumPen',
+cursive;
+color:#FF3857;
+font-size: 25px;
+transition: all 0.5s;
+}
+.secondAboutButton:hover{
+  transition: all 0.5s;
+  background: #FF3857;
+  color:#141E2E;
+}
+
+@media (max-width:920px){
+.homeImage img {
+  width: 360px;
+}
+.info {
+  font-family: 'Lexend', sans-serif;
+  margin: 20px;
+  letter-spacing: 0.5px;
+  color: #FF3857;
+  font-size: 30px;
+}
+.secondInfo {
+  font-family: 'Lexend', sans-serif;
+  margin: 20px;
+  font-weight: 100;
+  color: #E5E5E5;
+  font-size: 15px;
+}
+}
+@media (max-width:730px) {
+  .homeImage img {
+    width: 360px;
+  }
+
+  .info {
+    font-family: 'Lexend', sans-serif;
+    margin: 20px;
+    letter-spacing: 0.5px;
+    color: #FF3857;
+    font-size: 25px;
+  }
+
+  .secondInfo {
+    font-family: 'Lexend', sans-serif;
+    margin: 20px;
+    font-weight: 100;
+    color: #E5E5E5;
+    font-size: 15px;
+  }
+  .homeStart {
+      width:150px;
+      height: 40px;
+      font-size: 20px;
+  }
+  .homePlans{
+    font-size: 22px;
+  }
+}
+
+@media (max-width:640px) {
+  .homeImage img {
+    width: 320px;
+  }
+
+  .info {
+    font-family: 'Lexend', sans-serif;
+    margin: 20px;
+    letter-spacing: 0.5px;
+    color: #FF3857;
+    font-size: 20px;
+  }
+
+  .secondInfo {
+    font-family: 'Lexend', sans-serif;
+    margin: 20px;
+    font-weight: 100;
+    color: #E5E5E5;
+    font-size: 12px;
+  }
+
+  .homeStart {
+    width: 130px;
+    font-size: 20px;
+    height: 40px;
+  }
+
+  .homePlans {
+    font-size: 19px;
+  }
+}
+
+@media (max-width:560px) {
+  .homeImage img {
+    display: none;
+  }
+
+  .info {
+    font-family: 'Lexend', sans-serif;
+    margin: 20px;
+    letter-spacing: 0.5px;
+    color: #FF3857;
+    font-size: 19px;
+  }
+
+  .secondInfo {
+    font-family: 'Lexend', sans-serif;
+    margin: 18px;
+    font-weight: 100;
+    color: #E5E5E5;
+    font-size: 14px;
+  }
+
+  .homeStart {
+    width: 120px;
+    height: 30px;
+    font-size: 18px;
+  }
+
+  .homePlans {
+    font-size: 18px;
+  }
+}
+
+@media (max-width:460px) {
+  .homeImage img {
+   display: none;
+  }
+
+  .info {
+    font-family: 'Lexend', sans-serif;
+    margin: 20px;
+    letter-spacing: 0.5px;
+    color: #FF3857;
+    font-size: 18px;
+  }
+
+  .secondInfo {
+    font-family: 'Lexend', sans-serif;
+    margin: 20px;
+    font-weight: 100;
+    color: #E5E5E5;
+    font-size: 16px;
+  }
+
+  .homeStart {
+    width: 100px;
+    font-size: 18px;
+    height: 30px;
+  }
+
+  .homePlans {
+    font-size: 18px;
+  }
+  .homeContent{
+
+  height:250px;
+  }
+}

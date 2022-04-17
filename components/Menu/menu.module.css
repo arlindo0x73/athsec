@@ -1,0 +1,155 @@
+@font-face{
+  font-family: 'NaumPen';
+  src: url('../../public/Fonts/NanumPenScript-Regular.ttf');
+}
+
+.container{
+  width:100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  z-index: 999;
+}
+.contact{
+  padding:10px;
+  color:#00E7FF;
+  font-size: 14px;
+  display:flex;
+  flex-direction: row;
+}
+.contact span{
+  padding: 10px;
+  cursor:pointer;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact span a{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu{
+  padding:20px;
+  cursor:pointer;
+  
+}
+
+
+.menuItem{
+  position: fixed;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  top: 0;
+  right: 0px;
+  width: 450px;
+  cursor: default;
+  height: 100%;
+  background-color: #F2BB02;
+  transition: all 0.2s;
+  
+}
+.menuItem.active{
+  transition: all 0.5s;
+transform: translateX(550px);
+}
+
+
+.menuClose{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  padding:20px;
+  transition: all 1s;
+}
+.menuListContainer{
+  width: 100%;
+  height: calc(100vh - 50px);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.menuList{
+  width:300px;
+  height: 360px;
+  margin-left: -80px;
+  list-style: none;
+  background-color: #E3E3E3;
+
+  transition: all 1s;
+}
+
+.menuList ul{
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuList li{
+font-family: 'NaumPen',cursive;
+text-align: center;
+margin: 10px;
+color:#141E2E;
+font-size:50px;
+cursor: pointer;
+width:100%;
+height: 50px;
+font-weight: bold;
+transition: all 1s;
+}
+.menuList li:hover{
+transition: all 1s;
+background-color: #c7c4c4;
+}
+@media (max-width:540px) {
+.menuItem {
+  width: 340px;
+
+}
+}
+
+@media (max-width:430px) {
+  .menuItem {
+    width: 270px;
+  
+  }
+.contact {
+  padding: 10px;
+  color: #E3E3E3;
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+}
+.contact svg{
+  height: 20px;
+  width: 20px;
+}
+
+}
+@media (max-width:400px) {
+  .menuItem {
+    width: 240px;
+  
+  }
+  .contact {
+    padding: 10px;
+    color: #E3E3E3;
+    font-size: 7px;
+    display: flex;
+    flex-direction: row;
+  }
+  .contact svg {
+    height: 15px;
+    width: 15px;
+  }
+
+}
