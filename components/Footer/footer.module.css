@@ -1,0 +1,211 @@
+
+@font-face {
+  font-family: 'Lexend';
+  src: url('../../public/Fonts/LexendDeca.ttf');
+}
+.footer{
+  width: 100%;
+  display: flex;
+  margin-top: 140px;
+  flex-direction:column
+}
+.footerLogos a{
+  cursor: pointer;
+}
+.footerLogoContainer{
+  display: flex;
+  font-family: 'Lexend',sans-serif;
+
+  align-items: center;
+  justify-content: start;
+  font-weight: bold;
+  font-size: 20px;
+  color: #DEDCDC;
+}
+.footerInfo{
+  margin: 20px;
+  text-align:start;
+  font-size: 16px;
+  color: #DEDCDC;
+}
+
+.footerFirstBox h2 {
+  margin: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #DEDCDC;
+}
+.footerFirstBox span{
+  cursor: pointer;
+    margin: 10px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FF3857;
+}
+.footerContact{
+    margin: 0 30px;
+    text-align:start;
+    font-size: 16px;
+    color: #DEDCDC;
+}
+
+.firstSection{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.footerSecondBox h2{
+  margin: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #FF3857;
+}
+.footerSecondBox h3{
+  margin: 20px;
+  text-align:start;
+  font-size: 20px;
+  color: #DEDCDC;
+}
+.risks{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px
+}
+.risks a{
+  margin: 0 20px;
+  font-size: 16px;
+  color: #DEDCDC;
+  padding-top:5px;
+    
+}
+.secondSection{
+  display:flex;
+  padding:20px;
+  flex-direction:row;
+  justify-content:space-around;
+}
+
+.footerLogos{
+  padding:5px;
+  display:flex;
+}
+.ecopy{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.ecopy span{
+
+  font-size: 14px;
+  color: #FF3857;
+
+}
+.footerLogos div{
+  display: flex;
+  margin-left: 9px;
+  align-items: center;
+  justify-content: center;
+width:40px;
+height:40px;
+border-radius:20px;
+ background-color: #DEDCDC;
+
+}
+@media (max-width:560px){
+  .footerFirstBox h2 {
+    margin: 10px 20px;
+    font-size: 14px;
+  }
+  .ecopy span {
+  
+    font-size: 11px;
+  
+  }
+  .footerLogos div {
+    display: flex;
+    margin-left: 7px;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+  
+  }
+  .risks a {
+    margin: 0 20px;
+    font-size: 13px;
+    padding-top: 5px;
+  
+  }
+  .footerSecondBox h2 {
+    margin: 10px 20px;
+    font-size: 14px;
+  }
+  
+  .footerSecondBox h3 {
+    margin: 20px;
+    font-size: 14px;
+  }
+  .footerLogoContainer{
+    font-size: 14px;
+  }
+}
+
+@media (max-width:480px) {
+  .footerFirstBox h2 {
+    margin: 7px 15px;
+    font-size: 9px;
+  }
+
+  .ecopy span {
+
+    font-size: 9px;
+
+  }
+.footerInfo{
+  font-size: 10px;
+}
+.footerContact{
+  font-size: 9px;
+}
+.footerFirstBox span{
+  font-size: 9px;
+  margin: 4px 10px;
+}
+
+  .footerLogos div {
+    display: flex;
+    margin-left: 6px;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+
+  }
+  .risks{
+    margin: 0;
+  }
+
+  .risks a {
+    margin: 0 14px;
+    font-size: 9px;
+    padding-top: 3px;
+
+  }
+
+  .footerSecondBox h2 {
+    margin: 4px 14px;
+    font-size: 9px;
+  }
+
+  .footerSecondBox h3 {
+    margin: 10px;
+    font-size: 9px;
+  }
+
+  .footerLogoContainer {
+    font-size: 9px;
+  }
+}

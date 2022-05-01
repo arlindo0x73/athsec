@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Lexend';
+  src: url('../../public/Fonts/LexendDeca.ttf');
+}
+.alertContainer{
+  z-index: 9999;
+  position: fixed;
+  font-family: 'Lexend',sans-serif;
+  top: 10px;
+  align-self: center;
+  width: 100%;
+  height: 100px;
+  background-color:transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: alert 1s;
+  transition: all 1.5s;
+}
+@keyframes alert {
+  from{
+    transform: translateY(-100px);
+  }
+  to{
+    transform: translateY(0);
+  }
+}
+@keyframes closeAlert {
+  from{
+    transform: translateY(0px);
+  }
+  to{
+    transform: translateY(-100px);
+  }
+}
+.alertMessage{
+width: 300px;
+height: 100%;
+background-color: #FF2E47;
+
+border-radius: 15px;
+}
+.alertMessage span{
+  padding:5px;
+  color:#E5E5E5;
+  cursor:pointer;
+
+}
+.alertMessage span:active{
+font-size: 15px;
+}
+.alertMessage p {
+  text-align: center;
+  padding-top: 20px;
+  color: #E5E5E5;
+  font-size: 17px;
+}
