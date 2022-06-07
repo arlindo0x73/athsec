@@ -1,19 +1,15 @@
 import style from "./footer.module.css";
 import Link from "next/link";
-import {RiInst} from 'react-icons/ri'
+import { RiInst } from 'react-icons/ri'
 
 const Footer = () => {
- 
+
   return (
     <footer className={style.footer}>
       <section className={style.firstSection}>
         <div className={style.footerFirstBox}>
           <div className={style.footerLogoContainer}>
-            <img
-              style={{ cursor: "pointer", width: 40, height: 40 }}
-              src="/Icons/fav_light.png"
-              alt="logo"
-            />
+            <img style={{ cursor: "pointer", width: 40, height: 40 }} src="/Icons/fav_light.png" alt="logo" />
             ATHSec
           </div>
           <p className={style.footerInfo}>
@@ -111,7 +107,7 @@ const Footer = () => {
           <span>&copy; Copyright ATHSec Todos os direitos reservados</span>
         </div>
         <div className={style.footerLogos}>
-          <a target="_blank" href="https://www.instagram.com/athsecacademy/">
+          <a href="https://www.instagram.com/athsecacademy/">
             <div>
               <svg
                 width="18"
@@ -127,7 +123,7 @@ const Footer = () => {
               </svg>
             </div>
           </a>
-          <a target="_blank" href="https://twitter.com/swagneycod3">
+          <a href="https://twitter.com/swagneycod3">
             <div>
               <svg
                 width="18"
@@ -143,7 +139,7 @@ const Footer = () => {
               </svg>
             </div>
           </a>
-          <a target="_blank" href="https://linkedin.com/company/athsecacademy">
+          <a href="https://linkedin.com/company/athsecacademy">
             <div>
               <svg
                 width="18"
@@ -159,7 +155,7 @@ const Footer = () => {
               </svg>
             </div>
           </a>
-          <a target="_blank" href="https://facebook.com/athsecacademy">
+          <a href="https://facebook.com/athsecacademy">
             <div>
               <svg
                 width="11"

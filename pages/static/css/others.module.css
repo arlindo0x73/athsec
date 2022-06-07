@@ -1,0 +1,80 @@
+
+.backgroundBanner {
+  background-image: url('../../../public/Icons/banner.jpg');
+}
+
+.button, .secondButton, .buttonOutline {
+  border: 0;
+  border-radius: 25px;
+  outline: 0;
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+
+.button:hover, .secondButton:hover, .buttonOutline:hover {
+  transition: all 0.5s;
+  width: 200px;
+  height: 40px;
+  background: #F2BB02;
+  color: #141E2E;
+}
+
+.button {
+  color: #FF2E47;
+  background: #fff;
+}
+
+.secondButton {
+  color: #fff;
+  background: #FF2E47;
+}
+
+.buttonOutline {
+  color: #141E2E;
+  background-color: white;
+  border: 1px solid #141E2E;
+}
+
+.imageSide {
+  width: 25rem;
+  height: 25rem;
+}
+
+.texts {
+  font-family: 'Lexend', sans-serif;
+  font-weight: 100;
+  font-size: 17px;
+}
+
+.sectionBlue {
+  background-color: #141E2E;
+  color: white;
+}
+
+.smallInfoWhithImage {
+  width: 100%;
+  height: 70px;
+  padding: 5rem 0rem 5rem 0rem;
+}
+
+.smallInfoWhithImage svg {
+  width: 70px;
+  height: 60px;
+  margin: 10px;
+}
+
+.smallInfoWhithImage h2 {
+  font-size: 20px;
+  color: #FF2E47;
+  font-weight: bold;
+  text-align: start;
+}
+
+.smallInfoWhithImage p {
+  font-size: 12px;
+  color: #141E2E;
+  text-align: start;
+}

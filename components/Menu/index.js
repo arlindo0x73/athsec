@@ -1,19 +1,20 @@
 import menu from './menu.module.css'
 import { useState } from "react";
-import {RiPhoneFill, RiMailFill} from 'react-icons/ri'
+import { RiPhoneFill, RiMailFill } from 'react-icons/ri'
+import { MdOutlineSupportAgent, MdOutlineToggleOff } from "react-icons/md";
 import Link from "next/link";
 import Alert from '../Alert'
 
-const Menu = () =>{
-  const [activeMenu,setActiveMenu] = useState(false);
-   const  [alertMsg,setAlertMsg] = useState('')
-   const [alertTrue,setAlertTrue] = useState(false)
-   const copyLink = async (link) => {
-     await navigator.clipboard.writeText(link);
-     setAlertMsg('Copiado!')
-     setAlertTrue(true)
-   };
-  
+const Menu = () => {
+  const [activeMenu, setActiveMenu] = useState(false);
+  const [alertMsg, setAlertMsg] = useState('')
+  const [alertTrue, setAlertTrue] = useState(false)
+  const copyLink = async (link) => {
+    await navigator.clipboard.writeText(link);
+    setAlertMsg('Copiado!')
+    setAlertTrue(true)
+  };
+
   return (
     <header className={menu.container}>
       {alertTrue && <Alert error={alertMsg} setShowError={setAlertTrue} />}
@@ -22,25 +23,33 @@ const Menu = () =>{
           <a href="#">
             <img
               src="/Icons/fav_light.png"
-              style={{ cursor: "pointer", width: 40, height: 40 }}
+              style={{ cursor: "pointer", width: 50, height: 50 }}
             />
           </a>
           <span onClick={() => copyLink("+258820913596")}>
             <RiPhoneFill size={25} color="#FF3857" /> +258 820913596
           </span>
           <span>
-            <a href="mailto:contato@athsec.com">
+            <a href="mailto:contato@athsec.com" className={menu.link}>
               <RiMailFill size={25} color="#FF3857" />
               &#10;&#10; contato@athsec.com
             </a>{" "}
           </span>
         </div>
       </div>
+      <div>
+        
+      </div>
       <div className={menu.menu}>
+        <span>
+          <a href="" style={{ marginRight: "1rem" }}>
+            <MdOutlineToggleOff size={40} color="#FFF" />
+          </a>
+        </span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="30"
-          height="50"
+          height="40"
           viewBox="0 0 30 50"
           fill="none"
           onClick={() => setActiveMenu(true)}
@@ -65,6 +74,12 @@ const Menu = () =>{
             fill="#FF2E47"
           />
         </svg>
+
+        <span>
+          <a href="" style={{ marginLeft: "1rem" }}>
+            <MdOutlineSupportAgent size={40} color="#FFF" />
+          </a>
+        </span>
       </div>
       <section
         className={
@@ -109,13 +124,13 @@ const Menu = () =>{
         <div className={menu.menuListContainer}>
           <div className={menu.menuList}>
             <ul>
-              <Link href="#home">
+              <Link href="/home">
                 <li>Home</li>
               </Link>
-              <Link href="#about">
+              <Link href="/about">
                 <li>About</li>
               </Link>
-              <Link href="#partners">
+              <Link href="/partners">
                 <li>Parceiros</li>
               </Link>
               <Link href="">

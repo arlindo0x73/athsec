@@ -1,12 +1,12 @@
 import Head from 'next/head'
 
-const Header = () =>{
+const Header = ({ title }) =>{
   return (
     <Head>
-      <title>A Legiao The Hacker Security</title>
+      <title>Athsec - {title}</title>
       <meta
-        name="description"
-        content="Uma empresa especializada em cibersegurança"
+        name="A Legiao The Hacker Security"
+        description="description"
       />
       <link rel="icon" href="/Icons/fav_light.png" />
     </Head>
