@@ -9,7 +9,7 @@ import Link from "next/link"
 const contacts = () => {
   return (
     <main>
-      <Header title="Página inicial" />
+      <Header title="Contactos" />
 
       <section className={style.sectionBlue}>
         <Menu />

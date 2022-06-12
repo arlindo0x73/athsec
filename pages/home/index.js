@@ -248,7 +248,7 @@ const Home = () => {
                 Deixe nos transformar seus sistemas para minimizar o risco e
                 torná-los compatível rapidamente.
               </p>
-              <Link href="">
+              <Link href="/cdms">
                 <button>Iniciar</button>
               </Link>
             </div>
