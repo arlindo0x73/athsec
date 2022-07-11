@@ -356,6 +356,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 4rem 0 4rem 0;
 }
 
 .plans p {
@@ -385,56 +386,6 @@
   background-color: #DEDCDC;
   align-items: center;
   margin-top: 40px
-}
-
-.membersCardsContainer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
-.membersPictures {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.membersPictures h2 {
-  margin-top: 19px;
-  font-family: 'Lexend', Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  color: #FF2E47;
-}
-
-.membersPictures h3 {
-  font-family: 'Lexend', Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  font-weight: lighter;
-  color: #DEDCDC;
-}
-
-.membersPictures p {
-  font-size: 14px;
-  text-align: center;
-}
-
-.membersIndicator {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-top: 9px;
-  justify-content: center;
-}
-
-.membersIndicator div {
-  cursor: pointer;
-  width: 25%;
-  margin: 5px;
-  height: 3px;
-  border-radius: 20px;
-  background-color: #141E2E;
 }
 
 .partners {

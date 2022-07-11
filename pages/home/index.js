@@ -3,8 +3,9 @@ import Menu from '../../components/Menu'
 import Partners from '../../components/Partners'
 import Footer from '../../components/Footer'
 import style from './home.module.css'
-import { RiHeadphoneFill } from "react-icons/ri";
 import Link from "next/link";
+import Comment from "../../components/Comment"
+import Script from 'next/script'
 
 const Home = () => {
   return (
@@ -40,7 +41,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      
+
       <div className={style.secondHomeContent} id="about">
         <div className={style.secondHeader}>
           <div className={style.secondLogoText}>
@@ -252,6 +253,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      
       <div className={style.plans}>
         <p className={style.secondHomeinfo}>
           Soluções de segurança customizadas ao seu negócio
@@ -268,31 +270,34 @@ const Home = () => {
           <button>Planos</button>
         </Link>
       </div>
-      <div className={style.members}>
-        <div className={style.membersCardsContainer}>
-          <div className={style.membersPictures}>
-            <img src="/Icons/owner.png" alt="Owener" />
-            <h2>COMPANY OWNER</h2>
-            <h3>ATHSec E.I</h3>
-            <p className={style.secondInfo}>
-              Lorem ipsum dolor sit amet sed, consectetur adipiscing elit Lorem
-              ipsum dolor sit
-              <br /> amet sed, consectetur adipiscing elit Lorem ipsum dolor sit
-              amet sed
-              <br /> consectetur adipiscing elit Lorem ipsum dolor sit amet sed,
-              <br /> consectetur adipiscing elit
-            </p>
+
+      <div className="bg-blue py-5">
+        <div className="container py-5">
+          <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+            <div className="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1" style={{ width: '15rem', height: "3px", backgroundColor: '#141E2E' }}></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style={{ width: '15rem', height: "3px", backgroundColor: '#141E2E' }}></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" style={{ width: '15rem', height: "3px", backgroundColor: '#141E2E' }}></button>
+            </div>
+            <div className="carousel-inner">
+              <div className="carousel-item active py-5">
+                <Comment image="/Icons/owner.png" author="Código Negro" job="Pentester" text="Lorem ipsum dolor sit amet sed, consectetur adipiscing elit Lorem ipsum dolor sit" />
+              </div>
+              <div className="carousel-item py-5">
+                <Comment image="/Icons/owner.png" author="Ariel Chama" job="Programador" text="Lorem ipsum dolor sit amet sed, consectetur adipiscing elit Lorem ipsum dolor sit" />
+              </div>
+              <div className="carousel-item py-5">
+              <Comment image="/Icons/owner.png" author="Anastácio Paulino" job="Programdor" text="Lorem ipsum dolor sit amet sed, consectetur adipiscing elit Lorem ipsum dolor sit" />
+              </div>
+            </div>
           </div>
         </div>
-
-        <div className={style.membersIndicator}>
-          <div style={{ height: 7 }}></div>
-          <div></div>
-          <div></div>
-        </div>
       </div>
+
       <Partners />
       <Footer />
+
+      <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integridade="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/ t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous" />
     </main>
   );
 }
