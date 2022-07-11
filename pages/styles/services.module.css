@@ -1,0 +1,237 @@
+
+.container {
+  height: 100%;
+  display: flex;
+  background: #f8f8f8;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Lexend', sans-serif;
+}
+
+.containerOther {
+  width: 100%;
+  padding: 0px 75px;
+}
+
+.containerOther p {
+  font-size: 18px;
+}
+
+.bannerMain {
+  width: 100%;
+  height: 100vh;
+}
+
+.row {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  margin: 100px 0px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.rowContentTitle {
+  color: #FF2E47;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  font-size: 45px;
+  padding-bottom: 1rem;
+}
+
+.rowContentText {
+  font-weight: 100;
+  color: #1d1d1d;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.rowImage img {
+  width: 400px;
+}
+
+.fourthCardsContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.cardService {
+  width: 321px;
+  margin: 13px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 10px solid #18263a;
+  background-color: #f8f8f8;
+  box-shadow: #0d141e05 0px 0px 6px 1px;
+  align-items: center;
+  transition: 0.4s;
+  padding: 15px;
+}
+
+.cardService:hover {
+  transition: 0.4s;
+  box-shadow: #0d141e0c 0px 0px 9px 7px;
+  border-bottom: 10px solid #FF2E47;
+}
+
+.cardServiceImage {
+  margin-bottom: 1rem;
+}
+
+.cardServiceImage .image {
+  width: 190px;
+  height: 190px;
+}
+
+.cardServiceTexts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardServiceTexts h2 {
+  padding: 7px;
+  font-size: 18px;
+  color: #0d141e;
+  font-weight: bold;
+}
+
+.cardServiceTexts button {
+  margin: 17px 20px;
+  border: 0;
+  border-radius: 25px;
+  background: #18263a;
+  outline: 0;
+  width: 150px;
+  height: 35px;
+  font-weight: bold;
+  color: #FF2E47;
+  font-size: 18px;
+  transition: all 0.5s;
+}
+
+.cardServiceTexts button:hover {
+  background: #FF2E47;
+  color: #0d141e;
+}
+
+.cardServiceTexts p {
+  padding: 7px;
+  font-size: 14px;
+  color: #FF2E47;
+}
+
+.plans {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.plans p {
+  text-align: center;
+}
+
+.button {
+  border: 0;
+  border-radius: 25px;
+  background: #DEDCDC;
+  outline: 0;
+  width: 200px;
+  font-family: 'NaumPen', cursive;
+  height: 40px;
+  color: #FF2E47;
+  font-size: 22px;
+  transition: all 0.5s;
+}
+
+.secondHomeinfo {
+  margin: 20px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  color: #FF2E47;
+  font-size: 40px;
+}
+
+.secondInfo {
+  margin: 20px;
+  font-weight: 100;
+  color: #0d141e;
+  font-size: 17px;
+}
+
+.circle {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 100%;
+  flex: 0 0 auto;
+  width: 16.66666667%;
+}
+
+.circle-small {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100%;
+}
+
+.titleRed {
+  font-weight: bold;
+  color: #FF2E47;
+}
+
+@media (max-width: 576px) {
+  .containerOther {
+    padding: 0px;
+  }
+
+  .rowContentTitle {
+    margin: 20px;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+  }
+
+  .rowContentText {
+    margin: 20px;
+    font-size: 16px;
+  }
+
+  .rowImage img {
+    display: none;
+  }
+
+  .fourthCardsContainer {
+    flex-wrap: wrap;
+    padding: 4rem 0 4rem 0rem;
+  }
+
+  .cardService {
+    margin-bottom: 2rem;
+  }
+
+  .secondHomeinfo {
+    margin: 20px;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .secondInfo {
+    margin: 20px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}

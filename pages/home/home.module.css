@@ -1,20 +1,12 @@
-@font-face {
-  font-family: 'NaumPen';
-  src: url('../../public/Fonts/NanumPenScript-Regular.ttf');
-}
-
-@font-face {
-  font-family: 'Lexend';
-  src: url('../../public/Fonts/LexendDeca.ttf');
-}
 
 .container {
   height: 100%;
   display: flex;
-  background: #141E2E;
+  background: #f8f8f8;
   display: flex;
   align-items: center;
   flex-direction: column;
+  font-family: 'Lexend', sans-serif;
 }
 
 .firstContainer {
@@ -23,9 +15,9 @@
 }
 
 .homeContent {
-  background-color: #141e2e;
+  background-color: #f8f8f8;
   width: 100%;
-  height: 400px;
+  height: 70vh;
   display: flex;
   margin: 100px 0px;
   flex-direction: row;
@@ -34,20 +26,19 @@
 }
 
 .info {
-  font-family: 'Lexend', sans-serif;
   margin: 20px;
   letter-spacing: 0.5px;
   font-weight: bold;
-  color: #DEDCDC;
-  font-size: 40px;
+  color: #141E2E;
+  font-size: 45px;
 }
 
 .secondInfo {
-  font-family: 'Lexend', sans-serif;
   margin: 20px;
   font-weight: 100;
-  color: #DEDCDC;
-  font-size: 17px;
+  color: #1d1d1d;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .homeImage img {
@@ -65,12 +56,12 @@
   border: 0;
   border-radius: 25px;
   background: #FF2E47;
+  color: #f8f8f8;
   outline: 0;
-  width: 200px;
+  width: 180px;
   height: 40px;
-  font-family: 'NaumPen', cursive;
-  color: #141E2E;
-  font-size: 25px;
+  font-size: 20px;
+  font-weight: bolder;
   transition: all 0.5s;
 }
 
@@ -78,23 +69,22 @@
   transition: all 0.5s;
   width: 200px;
   height: 40px;
-  background: #F2BB02;
-  color: #141E2E;
+  background: #141E2E;
+  color: #f8f8f8;
 }
 
 .homePlans {
-  color: #E3E3E3;
-  font-size: 25px;
+  color: #FF2E47;
+  font-size: 20px;
   outline: 0;
   border: 0;
   background-color: transparent;
-  font-family: 'NaumPen', cursive;
   transition: all 0.5s;
 }
 
 .homePlans:hover {
   transition: all 0.5s;
-  color: #F2BB02;
+  color: #1d1d1d;
 }
 
 .secondLogoText {
@@ -103,20 +93,16 @@
     sans-serif;
   justify-content: center;
   align-items: center;
-
-
 }
 
 .secondContactButton {
-  border: 3px solid #DEDCDC;
+  border: 3px solid #141E2E;
   border-radius: 25px;
   background: transparent;
   outline: 0;
-  width: 200px;
+  width: 1080px;
   height: 40px;
-  font-family: 'NaumPen',
-    cursive;
-  color: #DEDCDC;
+  color: #141E2E;
   font-size: 25px;
   transition: all 0.4s;
 }
@@ -125,7 +111,7 @@
   transition: all 0.4s;
   background: #FF3857;
   border: 3px solid #FF3857;
-  color: #141E2E;
+  color: #f8f8f8;
 }
 
 .secondHomeContent {
@@ -136,6 +122,7 @@
 .secondHeader {
   width: 100%;
   height: 70px;
+  margin: 20px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -143,24 +130,25 @@
 }
 
 .secondLogoText svg {
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
   margin: 10px;
+  color: #FF3857;
 }
 
 .secondLogoText h2 {
-  font-size: 16px;
-  color: #DEDCDC;
+  font-size: 20px;
+  color: #141E2E;
   font-weight: bold;
 }
 
 .secondLogoText p {
-  font-size: 12px;
-  color: #DEDCDC;
+  font-size: 17px;
+  color: #FF3857;
 }
 
 .secondHomeContentContainer {
-  background-color: #141e2e;
+  background-color: #f8f8f8;
   width: 100%;
   height: 400px;
   display: flex;
@@ -171,8 +159,6 @@
 }
 
 .secondHomeinfo {
-  font-family: 'NaumPen',
-    cursive;
   margin: 20px;
   letter-spacing: 0.5px;
   font-weight: bold;
@@ -190,8 +176,6 @@
   background: transparent;
   outline: 0;
   height: 40px;
-  font-family: 'Lexend',
-    sans-serif;
   color: #FF3857;
   padding-left: 10px;
   font-size: 13px;
@@ -218,23 +202,25 @@
 
 .secondAboutButton {
   margin: 20px 20px;
-  border: 3px solid #DEDCDC;
+  border: 3px solid #141E2E;
   border-radius: 25px;
-  background: transparent;
+  background: #141E2E;
   outline: 0;
-  width: 200px;
+  width: 180px;
   height: 40px;
-  font-family: 'NaumPen',
-    cursive;
-  color: #DEDCDC;
-  font-size: 25px;
+  color: #FF3857;
+  font-size: 20px;
   transition: all 0.5s;
+  font-weight: bolder;
 }
 
 .secondAboutButton:hover {
   transition: all 0.5s;
-  background: #DEDCDC;
-  color: #141E2E;
+  width: 200px;
+  height: 40px;
+  background: #FF2E47;
+  border: 3px solid #FF3857;
+  color: #f8f8f8;
 }
 
 .buttonsThirdContainer {
@@ -249,27 +235,28 @@
 }
 
 .thirdButtonProfile {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   border-radius: 25px;
-  background-color: #DEDCDC;
+  background-color: #141E2E;
 }
 
 .thirdButtonInfos {
   margin: 16px;
 
+
 }
 
 .thirdButtonInfos h2 {
   color: #FF2E47;
-  font-size: 14px;
-  width: 160px;
+  font-size: 16px;
+  width: 240px;
 }
 
 .thirdButtonInfos p {
-  color: #DEDCDC;
-  font-size: 12px;
-  width: 170px;
+  color: #1d1d1d;;
+  font-size: 16px;
+  width: 240px;
 }
 
 .fourthInfoContainer {
@@ -294,19 +281,19 @@
 .fourthCard {
   width: 321px;
   margin: 13px;
-  height: 425px;
+  height: 450px;
   display: flex;
   flex-direction: column;
-  border-bottom: 10px solid #DEDCDC;
-  background-color: #141E2E;
-  box-shadow: #0d141e 0px 0px 6px 1px;
+  border-bottom: 10px solid #141E2E;
+  background-color: #dedcdc0e;
+  box-shadow: #0d141e15 0px 0px 6px 1px;
   align-items: center;
   transition: 0.4s;
 }
 
 .fourthCard:hover {
   transition: 0.4s;
-  box-shadow: #0d141e 0px 0px 9px 7px;
+  box-shadow: #0d141e25 0px 0px 9px 7px;
   border-bottom: 10px solid #FF2E47;
 }
 
@@ -329,8 +316,9 @@
 
 .fourthCardTexts h2 {
   padding: 7px;
+  margin-left: 10px;
   font-size: 18px;
-  color: #DEDCDC;
+  color: #141E2E;
   font-weight: bold;
 }
 
@@ -338,9 +326,9 @@
   margin: 17px 20px;
   border: 0;
   border-radius: 25px;
-  background: #DEDCDC;
+  background: #0d141e;
   outline: 0;
-  width: 150px;
+  width: 180px;
   height: 35px;
   font-weight: bold;
   color: #FF2E47;
@@ -351,13 +339,14 @@
 .fourthCardTexts button:hover {
 
   background: #FF2E47;
-  color: #0d141e;
+  color: #f8f8f8;
 }
 
 .fourthCardTexts p {
-  padding: 7px;
+  padding: 5px;
   font-size: 14px;
-  color: #DEDCDC;
+  margin-left: 15px;
+  color: #1d1d1d;
 }
 
 .plans {
@@ -377,13 +366,12 @@
   margin: 17px 20px;
   border: 0;
   border-radius: 25px;
-  background: #DEDCDC;
+  background: #141E2E;
   outline: 0;
-  width: 200px;
-  font-family: 'NaumPen', cursive;
-  height: 40px;
+  width: 180px;
+  height: 35px;
   color: #FF2E47;
-  font-size: 22px;
+  font-size: 20px;
   transition: all 0.5s;
 }
 
@@ -446,7 +434,7 @@
   margin: 5px;
   height: 3px;
   border-radius: 20px;
-  background-color: #DEDCDC;
+  background-color: #141E2E;
 }
 
 .partners {
@@ -476,558 +464,82 @@
   margin: 25px 30px;
 }
 
-@media (max-width:1102px) {
-  .fourthCard {
-    width: 203px;
-    margin: 13px;
-    height: 373px;
-
-  }
-
-  .fourthCardImage {
-    width: 203px;
-    height: 161px;
-  }
-}
-
-@media (max-width:1014px) {
-  .thirdButtonProfile {
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
-  }
-
-  .thirdButtonInfos {
-    margin: 13px;
-
-  }
-
-  .thirdButtonInfos h2 {
-    font-size: 14px;
-    width: 140px;
-  }
-
-  .thirdButtonInfos p {
-    font-size: 12px;
-    width: 160px;
-  }
-
-  .secondHeader {
-    width: 100%;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: row;
-  }
-
-  .secondContactButton {
-    width: 140px;
-    height: 30px;
-    font-size: 22px;
-  }
-
-  .secondLogoText svg {
-    width: 30px;
-    height: 30px;
-    margin: 10px;
-  }
-
-  .secondLogoText h2 {
-    font-size: 13px;
-    font-weight: bold;
-  }
-
-  .secondLogoText p {
-    font-size: 12px;
-    font-weight: bold;
-  }
-
-}
-
-@media (max-width:811px) {
-  .thirdButtonInfos {
-    margin: 10px;
-
-  }
-
-  .thirdButtonInfos h2 {
-    font-size: 12px;
-    width: 110px;
-  }
-
-  .thirdButtonInfos p {
-    font-size: 10px;
-    width: 130px;
-  }
-
-  .secondHeader {
-    width: 100%;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: row;
-  }
-
-  .secondContactButton {
-    width: 100px;
-    height: 30px;
-    font-size: 20px;
-  }
-
-  .secondLogoText svg {
-    width: 25px;
-    height: 25px;
-    margin: 5px;
-  }
-
-  .secondLogoText h2 {
-    font-size: 10px;
-    font-weight: bold;
-  }
-
-  .secondLogoText p {
-    font-size: 9px;
-    font-weight: bold;
-  }
-}
-
-@media (max-width:925px) {
-  .firstContainer {
-    width: 100%;
-    height: 100%;
-  }
-
-  .secondHomeContent {
-    width: 100%;
-    height: 100%;
+@media (max-width: 576px) {
+  .homeContent {
+    margin: 0;
   }
 
   .homeImage img {
-    width: 360px;
+    display: none;
   }
 
   .info {
-    font-family: 'Lexend', sans-serif;
+    margin: 25px;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+  }
+
+  .secondInfo {
+    font-size: 16px;
+  }
+
+  .secondHeader {
+    margin-bottom: 20rem;
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+
+  .buttonsThirdContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .fourthCardsContainer {
+    flex-wrap: wrap;
+    padding: 4rem 0 4rem 0rem;
+  }
+
+  .cardService {
+    margin-bottom: 2rem;
+  }
+
+  .secondHomeinfo {
+    margin: 20px;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .secondInfo {
+    margin: 20px;
+    font-size: 16px;
+  }
+
+  .plans {
+    margin-top: 60rem;
+  }
+
+  .members {
+    margin-top: 15rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .homeImage img {
+    width: 400px;
+  }
+
+  .info {
     margin: 20px;
     letter-spacing: 0.5px;
     font-size: 30px;
   }
 
   .secondInfo {
-    font-family: 'Lexend', sans-serif;
-    margin: 20px;
-    font-weight: 100;
-    font-size: 15px;
-  }
-
-  .fourthCard {
-    width: 173px;
-    margin: 11px;
-    height: 353px;
-
-  }
-
-  .fourthCardImage {
-    width: 173px;
-    height: 161px;
-  }
-
-  .fourthCardTexts h2 {
-    font-size: 14px;
-    margin: 4px;
-  }
-
-  .fourthCardTexts p {
-    font-size: 12px;
-    padding: 14px;
-  }
-
-}
-
-@media (max-width:770px) {
-  .plans .secondHomeinfo {
-    font-size: 24px;
-  }
-
-  .fourthCard {
-    width: 153px;
-    margin: 10px;
-    height: 303px;
-
-  }
-
-  .fourthCardImage {
-    width: 153px;
-    height: 151px;
-  }
-
-  .fourthCardTexts h2 {
-    font-size: 13px;
-
-  }
-
-  .fourthCardTexts p {
-    font-size: 11px;
-    padding: 5px;
-  }
-
-  .fourthCardTexts button {
-    width: 74px;
-    height: 21px;
-    font-size: 16px;
-  }
-}
-
-@media (max-width:730px) {
-  .partnersImages img {
-    margin: 20px 14px;
-  }
-
-  .blankMember {
-    width: 60px;
-
-  }
-
-  .thirdImage {
-    display: none;
-  }
-
-  .thirdButtonProfile {
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
-  }
-
-  .thirdButtonInfos {
-    margin: 12px;
-
-  }
-
-  .thirdButtonInfos h2 {
-    font-size: 13px;
-    width: 120px;
-  }
-
-  .thirdButtonInfos p {
-    font-size: 11px;
-    width: 140px;
-  }
-
-  .homeImage img {
-    width: 360px;
-  }
-
-  .info {
-    font-family: 'Lexend', sans-serif;
-    margin: 20px;
-    letter-spacing: 0.5px;
-    font-size: 25px;
-  }
-
-  .secondInfo {
-    font-family: 'Lexend', sans-serif;
-    margin: 20px;
-    font-weight: 100;
-    font-size: 15px;
-  }
-
-  .homeStart {
-    width: 150px;
-    height: 40px;
-    font-size: 20px;
-  }
-
-  .homePlans {
-    font-size: 22px;
-  }
-}
-
-@media (max-width:690px) {
-  .fourthCard {
-    width: 120px;
-    margin: 7px;
-    height: 263px;
-
-  }
-
-  .fourthCardImage {
-    width: 120px;
-    height: 131px;
-  }
-
-  .fourthCardTexts h2 {
-    font-size: 12px;
-
-  }
-
-  .fourthCardTexts p {
-    font-size: 10px;
-    padding: 3px;
-  }
-
-  .fourthCardTexts button {
-    width: 70px;
-    height: 20px;
-    font-size: 13px;
-  }
-}
-
-@media (max-width:640px) {
-  .secondHeader {
-    width: 100%;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: row;
-  }
-
-  .secondContactButton {
-    width: 60px;
-    height: 20px;
-    border-radius: 14px;
-    font-size: 12px;
-  }
-
-  .secondLogoText svg {
-    width: 20px;
-    height: 20px;
-    margin: 5px;
-  }
-
-  .secondLogoText h2 {
-    font-size: 8px;
-    font-weight: bold;
-  }
-
-  .secondLogoText p {
-    font-size: 7px;
-    font-weight: bold;
-  }
-
-  .homeImage img {
-    width: 320px;
-  }
-
-  .info {
-    font-family: 'Lexend', sans-serif;
-    margin: 20px;
-    letter-spacing: 0.5px;
-    font-size: 20px;
-  }
-
-  .secondInfo {
-    font-family: 'Lexend', sans-serif;
-    margin: 20px;
-    font-weight: 100;
-    font-size: 12px;
-  }
-
-  .homeStart {
-    width: 130px;
-    font-size: 20px;
-    height: 40px;
-  }
-
-  .homePlans {
-    font-size: 19px;
-  }
-}
-
-@media (max-width:560px) {
-  .homeImage img {
-    display: none;
-  }
-
-  .info {
-    font-family: 'Lexend', sans-serif;
-    margin: 20px;
-    letter-spacing: 0.5px;
-    font-size: 19px;
-  }
-
-  .secondInfo {
-    font-family: 'Lexend', sans-serif;
-    margin: 18px;
-    font-weight: 100;
-    font-size: 14px;
-  }
-
-  .homeStart {
-    width: 120px;
-    height: 30px;
     font-size: 18px;
   }
-
-  .homePlans {
-    font-size: 18px;
-  }
-
-  .fourthCard {
-    width: 90px;
-    margin: 9px;
-    height: 250px;
-
-  }
-
-  .fourthCardImage {
-    width: 90px;
-    height: 80px;
-  }
-
-  .fourthCardTexts h2 {
-    font-size: 10px;
-    width: 90px;
-
-  }
-
-  .fourthCardTexts p {
-    font-size: 8px;
-    width: 90px;
-    padding: 2px;
-  }
-
-  .fourthCardTexts button {
-    width: 66px;
-    height: 20px;
-    font-size: 13px;
-  }
-
-  .membersPictures img {
-    width: 80px;
-  }
 }
 
-@media (max-width:495px) {
-  .partnersImages img {
-    width: 40px;
-  }
+@media (min-width: 1200px) {}
 
-  .blankMember {
-    width: 30px;
-    margin: 23px 0px;
-    height: 20px;
-  }
-}
-
-@media (max-width:460px) {
-
-  .thirdImage {
-    display: none;
-  }
-
-  .buttonsThirdContainer {
-    margin-left: 25px;
-  }
-
-  .thirdButtonProfile {
-    width: 20px;
-    height: 20px;
-    border-radius: 11px;
-  }
-
-  .thirdButtonInfos {
-    margin: 11px;
-
-  }
-
-  .thirdButtonInfos h2 {
-    font-size: 9px;
-    width: 100px;
-  }
-
-  .thirdButtonInfos p {
-    font-size: 9px;
-    width: 120px;
-  }
-
-  .homeImage img {
-    display: none;
-  }
-
-  .info {
-    font-family: 'Lexend', sans-serif;
-    margin: 20px;
-    letter-spacing: 0.5px;
-    font-size: 18px;
-  }
-
-  .secondInfo {
-    font-family: 'Lexend', sans-serif;
-    margin: 20px;
-    font-weight: 100;
-    font-size: 16px;
-  }
-
-  .homeStart {
-    width: 100px;
-    font-size: 18px;
-    height: 30px;
-  }
-
-  .homePlans {
-    font-size: 18px;
-  }
-
-  .homeContent {
-
-    height: 250px;
-  }
-}
-
-@media (max-width:440px) {
-  .fourthCard {
-    width: 70px;
-    margin: 6px;
-    height: 200px;
-
-  }
-
-  .fourthCardImage {
-    width: 70px;
-    height: 80px;
-  }
-
-  .fourthCardTexts h2 {
-    font-size: 7px;
-    width: 70px;
-
-  }
-
-  .fourthCardTexts p {
-    font-size: 6px;
-    width: 70px;
-    padding: 2px;
-  }
-
-  .fourthCardTexts button {
-    width: 56px;
-    height: 15px;
-    font-size: 11px;
-  }
-}
-
-@media (max-width:300px) {
-  .thirdButtonProfile {
-    width: 20px;
-    height: 20px;
-    border-radius: 10px;
-  }
-
-  .thirdButtonInfos {
-    margin: 10px;
-
-  }
-
-  .thirdButtonInfos h2 {
-    font-size: 10px;
-    width: 80px;
-  }
-
-  .thirdButtonInfos p {
-    font-size: 8px;
-    width: 100px;
-  }
-}
+@media (min-width: 1400px) {}

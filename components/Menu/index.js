@@ -1,51 +1,20 @@
 import menu from './menu.module.css'
 import { useState } from "react";
-import { RiPhoneFill, RiMailFill } from 'react-icons/ri'
-import { MdOutlineSupportAgent, MdOutlineToggleOff } from "react-icons/md";
 import Link from "next/link";
 import Alert from '../Alert'
 
 const Menu = () => {
   const [activeMenu, setActiveMenu] = useState(false);
-  const [alertMsg, setAlertMsg] = useState('')
-  const [alertTrue, setAlertTrue] = useState(false)
-  const copyLink = async (link) => {
-    await navigator.clipboard.writeText(link);
-    setAlertMsg('Copiado!')
-    setAlertTrue(true)
-  };
 
   return (
     <header className={menu.container}>
-      {alertTrue && <Alert error={alertMsg} setShowError={setAlertTrue} />}
       <div>
-        <div className={menu.contact}>
-          <a href="#">
-            <img
-              src="/Icons/fav_light.png"
-              style={{ cursor: "pointer", width: 50, height: 50 }}
-            />
-          </a>
-          <span onClick={() => copyLink("+258820913596")}>
-            <RiPhoneFill size={25} color="#FF3857" /> +258 820913596
-          </span>
-          <span>
-            <a href="mailto:contato@athsec.com" className={menu.link}>
-              <RiMailFill size={25} color="#FF3857" />
-              &#10;&#10; contato@athsec.com
-            </a>{" "}
-          </span>
+        <div className={menu.fav}>
+          <img src="/Icons/fav.png" style={{ cursor: "pointer", width: 100 }} />
         </div>
       </div>
-      <div>
-        
-      </div>
+
       <div className={menu.menu}>
-        <span>
-          <a href="" style={{ marginRight: "1rem" }}>
-            <MdOutlineToggleOff size={40} color="#FFF" />
-          </a>
-        </span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="30"
@@ -74,18 +43,8 @@ const Menu = () => {
             fill="#FF2E47"
           />
         </svg>
-
-        <span>
-          <a href="" style={{ marginLeft: "1rem" }}>
-            <MdOutlineSupportAgent size={40} color="#FFF" />
-          </a>
-        </span>
       </div>
-      <section
-        className={
-          activeMenu ? `${menu.menuItem}` : `${menu.menuItem} ${menu.active}`
-        }
-      >
+      <section className={activeMenu ? `${menu.menuItem}` : `${menu.menuItem} ${menu.active}`}>
         <div className={menu.menuClose}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -130,10 +89,10 @@ const Menu = () => {
               <Link href="/about">
                 <li>About</li>
               </Link>
-              <Link href="/partners">
+              <Link href="/">
                 <li>Parceiros</li>
               </Link>
-              <Link href="">
+              <Link href="/">
                 <li>Recursos</li>
               </Link>
             </ul>

@@ -2,8 +2,7 @@ import Header from "../components/Header"
 import Menu from '../components/Menu'
 import Partners from '../components/Partners'
 import Footer from '../components/Footer'
-import "bootstrap/dist/css/bootstrap.css";
-import style from "./static/css/others.module.css"
+import style from "./styles/others.module.css"
 import Link from "next/link"
 
 const contacts = () => {
@@ -21,9 +20,6 @@ const contacts = () => {
                 Avalie totalmente as capacidades de detecção e resposta de ameaças da sua organização.
               </p>
             </div>
-            <div className="col-md-6 py-5">
-              <img src="/Icons/technical-support.png" alt="" className={style.imageSide} />
-            </div>
           </div>
         </div>
       </section>
@@ -31,7 +27,7 @@ const contacts = () => {
       <div className={style.smallInfoWhithImage}>
         <div className="container text-center">
           <div className="row mb-5">
-            <div className="col">
+            <div className="col-md-4">
               <div className="row">
                 <div className="col-md-3">
                   <svg xmlns="http://www.w3.org/2000/svg" width="50" height="62" viewBox="0 0 50 62" fill="#141E2E">
@@ -44,7 +40,7 @@ const contacts = () => {
                 </div>
               </div>
             </div>
-            <div className="col">
+            <div className="col-md-4">
               <div className="row">
                 <div className="col-md-3">
                   <svg xmlns="http://www.w3.org/2000/svg" width="49" height="61" viewBox="0 0 49 61" fill="#141E2E">
@@ -57,7 +53,7 @@ const contacts = () => {
                 </div>
               </div>
             </div>
-            <div className="col">
+            <div className="col-md-4">
               <div className="row">
                 <div className="col-md-3">
                   <svg xmlns="http://www.w3.org/2000/svg" width="50" height="62" viewBox="0 0 50 62" fill="#141E2E">
@@ -78,7 +74,7 @@ const contacts = () => {
         </div>
       </div>
 
-      <div className={style.sectionBlue}>
+      <div className={style.sectionBluepartner}>
         <Partners />
         <Footer />
       </div>
