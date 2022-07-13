@@ -10,7 +10,7 @@ const index = () => {
     <main className={styleMain.container}>
       <Header title="Cyber defense management" />
       <Menu />
-      <section className={styleMain.containerOther}>
+      <section className={styleMain.containerOther} style={{ marginTop: '4rem' }}>
         <div className={styleMain.row}>
           <div className={styleMain.rowContent}>
             <h2 className={styleMain.rowContentTitle}>

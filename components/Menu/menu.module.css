@@ -4,6 +4,7 @@
   height: 50px;
   display: flex;
   justify-content: space-between;
+  padding: 0rem 10rem 0rem 10rem;
   flex-direction: row;
   z-index: 999;
 }
@@ -105,24 +106,27 @@
   color: #FF3857;
 }
 
-@media (max-width:540px) {
-  .menuItem {
-    width: 340px;
-
-  }
-}
-
-@media (max-width:430px) {
+@media (min-width: 300px) {
   .menuItem {
     width: 270px;
-
   }
 
+  .container {
+    padding: 0rem;
+  }
 }
 
-@media (max-width:400px) {
-  .menuItem {
-    width: 240px;
 
+@media (min-width: 594px) {
+  
+}
+
+@media (min-width: 1300px) {
+  
+}
+
+@media (min-width: 1400px) {
+  .container {
+    padding: 0rem 8rem 0rem 8rem;
   }
 }

@@ -102,16 +102,15 @@ const Home = () => {
             </div>
           </div>
           <div className={style.homeImage}>
-            <img src="/Icons/second-screen-image2.png" alt="second-screen-image"
-            />
+            <img src="/Icons/second-screen-image2.png" alt="second-screen-image" />
           </div>
         </div>
       </div>
-      <div className={style.secondHomeContent} style={{ margin: '30rem' }} id="third">
+
+      <div className={style.thirdHomeContent} id="third">
         <div className={style.secondHomeContentContainer}>
           <div className={`${style.homeImage} ${style.thirdImage}`}>
-            <img src="/Icons/third-screen-image.png" alt="second-screen-image"
-            />
+            <img src="/Icons/third-screen-image.png" alt="second-screen-image" />
           </div>
           <div>
             <p className={style.secondHomeinfo}>Enterprise Cyber Security</p>
@@ -185,17 +184,10 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className={style.secondHomeContent}>
+      
+      <div className={style.fourthHomeContent}>
         <div className={style.fourthInfoContainer} id="planos">
-          <p
-            style={{
-              marginTop: 47,
-              marginBottom: 0,
-              marginLeft: 0,
-              marginRight: 0,
-            }}
-            className={style.secondHomeinfo}
-          >
+          <p className={style.secondHomeinfo}>
             Escolha um Pacote
           </p>
           <p className={style.secondInfo}>
@@ -253,7 +245,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      
+
       <div className={style.plans}>
         <p className={style.secondHomeinfo}>
           Soluções de segurança customizadas ao seu negócio

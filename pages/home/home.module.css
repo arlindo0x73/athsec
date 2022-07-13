@@ -11,7 +11,6 @@
 
 .firstContainer {
   width: 100%;
-  height: 100vh;
 }
 
 .homeContent {
@@ -89,8 +88,7 @@
 
 .secondLogoText {
   display: flex;
-  font-family: 'Lexend',
-    sans-serif;
+  font-family: 'Lexend', sans-serif;
   justify-content: center;
   align-items: center;
 }
@@ -116,12 +114,19 @@
 
 .secondHomeContent {
   width: 100%;
-  height: 100vh;
+}
+
+.thirdHomeContent {
+  width: 100%;
+}
+
+.fourthHomeContent {
+  width: 100%;
+  padding-top: 4rem;
 }
 
 .secondHeader {
   width: 100%;
-  height: 70px;
   margin: 20px;
   display: flex;
   align-items: center;
@@ -148,11 +153,8 @@
 }
 
 .secondHomeContentContainer {
-  background-color: #f8f8f8;
   width: 100%;
-  height: 400px;
   display: flex;
-  margin: 100px 0px;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
@@ -243,8 +245,6 @@
 
 .thirdButtonInfos {
   margin: 16px;
-
-
 }
 
 .thirdButtonInfos h2 {
@@ -275,7 +275,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 70px;
 }
 
 .fourthCard {
@@ -337,7 +336,6 @@
 }
 
 .fourthCardTexts button:hover {
-
   background: #FF2E47;
   color: #f8f8f8;
 }
@@ -351,12 +349,10 @@
 
 .plans {
   width: 100%;
-  height: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 4rem 0 4rem 0;
 }
 
 .plans p {
@@ -376,24 +372,11 @@
   transition: all 0.5s;
 }
 
-.members {
-  margin-top: 140px;
-}
-
-.blankMember {
-  width: 90px;
-  height: 30px;
-  background-color: #DEDCDC;
-  align-items: center;
-  margin-top: 40px
-}
-
 .partners {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  margin-top: 180px;
 }
 
 .partners span {
@@ -415,7 +398,7 @@
   margin: 25px 30px;
 }
 
-@media (max-width: 576px) {
+@media (min-width: 300px) {
   .homeContent {
     margin: 0;
   }
@@ -440,6 +423,10 @@
     justify-content: start;
   }
 
+  .fourthHomeContent {
+    margin-top: 4rem;
+  }
+
   .buttonsThirdContainer {
     flex-wrap: wrap;
     justify-content: center;
@@ -461,18 +448,6 @@
     text-align: center;
   }
 
-  .secondInfo {
-    margin: 20px;
-    font-size: 16px;
-  }
-
-  .plans {
-    margin-top: 60rem;
-  }
-
-  .members {
-    margin-top: 15rem;
-  }
 }
 
 @media (max-width: 992px) {
@@ -491,6 +466,61 @@
   }
 }
 
-@media (min-width: 1200px) {}
+@media (min-width: 600px) {
 
-@media (min-width: 1400px) {}
+  .fourthHomeContent {
+    margin-top: 0rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .homeImage img {
+    display: block;
+    width: 300px;
+  }
+
+  .info {
+    margin: 25px;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+  }
+
+  .secondInfo {
+    font-size: 16px;
+  }  
+}
+
+@media (min-width: 926px) {
+  .secondHeader {
+    justify-content: space-around;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1100px) {
+  .info {
+    font-size: 30px;
+  }
+
+  .secondInfo {
+    font-size: 18px;
+  }
+
+  .secondHomeinfo {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .info {
+    font-size: 45px;
+  }
+
+  .secondInfo {
+    font-size: 18px;
+  }
+
+  .secondHeader {
+    margin-top: 4rem;
+  }
+}

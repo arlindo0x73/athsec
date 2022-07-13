@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 @font-face {
   font-family: 'NaumPen';
   src: url('../../public/Fonts/NanumPenScript-Regular.ttf');
@@ -8,6 +12,3 @@
   src: url('../../public/Fonts/LexendDeca.ttf');
 }
 
-body {
-  overflow-x: hidden;
-}

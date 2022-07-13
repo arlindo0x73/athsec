@@ -10,7 +10,7 @@ const Plans = () => {
 		<main className={styleMain.container}>
 			<Header title="Cyber defense compliance and risk" />
 			<Menu />
-			<section className={styleMain.containerOther}>
+			<section className={styleMain.containerOther} style={{ marginTop: '4rem' }}>
 				<div className={styleMain.row}>
 					<div className={styleMain.rowContent}>
 						<h2 className={styleMain.rowContentTitle}>
@@ -31,7 +31,7 @@ const Plans = () => {
 			</section>
 
 			<div className={styleMain.containerOther}>
-				<div className={styleMain.row} >
+				<div className={styleMain.row}>
 					<div className={styleMain.rowImage}>
 						<img src="/Icons/left-compliance.png" className="" alt="" />
 					</div>

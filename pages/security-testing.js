@@ -12,7 +12,7 @@ const cdp = () => {
       <Header title="Cyber Defense Proactive" />
       <Menu />
 
-      <section className={styleMain.containerOther}>
+      <section className={styleMain.containerOther} style={{ marginTop: '4rem' }}>
         <div className={styleMain.row}>
           <div className={styleMain.rowContent}>
             <h2 className={styleMain.rowContentTitle}>
