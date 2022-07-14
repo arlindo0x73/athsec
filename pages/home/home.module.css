@@ -199,7 +199,6 @@
 
 .secondAboutButtonContainer {
   display: flex;
-
 }
 
 .secondAboutButton {
@@ -233,7 +232,6 @@
 .thirdButton {
   display: flex;
   flex-direction: row;
-
 }
 
 .thirdButtonProfile {
@@ -418,7 +416,7 @@
   }
 
   .secondHeader {
-    margin-bottom: 20rem;
+    margin-bottom: 4rem;
     flex-wrap: wrap;
     justify-content: start;
   }
@@ -467,7 +465,6 @@
 }
 
 @media (min-width: 600px) {
-
   .fourthHomeContent {
     margin-top: 0rem;
   }
@@ -495,11 +492,9 @@
     justify-content: space-around;
     flex-direction: row;
   }
-}
 
-@media (min-width: 1100px) {
   .info {
-    font-size: 30px;
+    font-size: 34px;
   }
 
   .secondInfo {
@@ -509,9 +504,35 @@
   .secondHomeinfo {
     font-size: 30px;
   }
+
+  .homeImage img {
+    width: 320px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .info {
+    font-size: 34px;
+  }
+
+  .secondInfo {
+    font-size: 18px;
+  }
+
+  .secondHomeinfo {
+    font-size: 30px;
+  }
+
+  .homeImage img {
+    width: 400px;
+  }
 }
 
 @media (min-width: 1300px) {
+  .homeImage img {
+    width: 500px;
+  }
+
   .info {
     font-size: 45px;
   }
@@ -522,5 +543,23 @@
 
   .secondHeader {
     margin-top: 4rem;
+  }
+
+  .firstContainer {
+    padding-bottom: 4rem;
+  }
+
+  .thirdHomeContent {
+    padding-top: 4rem;
+  }
+
+  .firstContainer {
+    padding-top: 5rem;
+  }
+}
+
+@media (min-width: 1700px) {
+  .firstContainer {
+    padding-top: 0rem;
   }
 }

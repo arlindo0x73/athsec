@@ -1,203 +1,131 @@
-
 .footer {
   width: 100%;
-  display: flex;
   margin-top: 140px;
-  padding: 20px;
-  flex-direction: column;
+  padding: 3rem;
   background: #141e2e;
-  font-family: 'Lexend', sans-serif;
 }
 
 .footer a {
+  color: #fff;
   text-decoration: none;
 }
 
-.footer a:hover {
-  color: white;
-}
-
-.footerLogos a {
-  cursor: pointer;
-}
-
-.footerLogoContainer {
-  display: flex;
-  font-family: 'Lexend', sans-serif;
-  align-items: center;
+.footer h4 {
+  font-size: 18px;
   font-weight: bold;
-  font-size: 30px;
-  color: #DEDCDC;
+  color: #757575;
 }
 
-.footerFirstBox h4 {
-  color: #FF3857;
+.footer p {
+  color: #fff;
+  font-size: 18px;
 }
 
-.footerFirstBox p {
-  color: #DEDCDC;
-}
-
-.firstSection {
+.container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between;
 }
 
-.footerSecondBox h4 {
-  font-size: 20px;
-  font-weight: bold;
-  color: #FF3857;
+.imageLogo img {
+  width: 90px;
+  margin-bottom: 0.8rem;
 }
 
-.risks {
+.links {
   display: flex;
   flex-direction: column;
   padding-bottom: 1.5rem;
 }
 
-.risks a {
-  font-size: 16px;
+.links a {
+  font-size: 18px;
   color: #DEDCDC;
-  padding-top: 5px;
-
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-.secondSection {
+.imageLogo {
   display: flex;
-  padding: 20px;
-  flex-direction: row;
-  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+  font-size: 28px;
+  color: #DEDCDC;
 }
 
 .footerLogos {
-  padding: 5px;
   display: flex;
-}
-
-.ecopy {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.ecopy span {
-  font-size: 14px;
-  color: #FF3857;
+  flex-direction: row;
 }
 
 .footerLogos div {
   display: flex;
-  margin-left: 9px;
+  margin-right: 9px;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   border-radius: 20px;
   background-color: #DEDCDC;
-
 }
 
-@media (max-width:560px) {
-  .footerFirstBox h4 {
-    margin: 10px 20px;
-    font-size: 14px;
-  }
-
-  .ecopy span {
-
-    font-size: 11px;
-
-  }
-
-  .footerLogos div {
-    display: flex;
-    margin-left: 7px;
-    align-items: center;
-    justify-content: center;
-    width: 20px;
-    height: 20px;
-    border-radius: 15px;
-
-  }
-
-  .risks a {
-    margin: 0 20px;
-    font-size: 13px;
-    padding-top: 5px;
-
-  }
-
-  .footerSecondBox h4 {
-    margin: 10px 20px;
-    font-size: 14px;
-  }
-
-  .footerSecondBox h3 {
-    margin: 20px;
-    font-size: 14px;
-  }
-
-  .footerLogoContainer {
-    font-size: 14px;
+@media (min-width: 300px) {
+  .container {
+    flex-direction: column;
   }
 }
 
-@media (max-width:480px) {
-  .footerFirstBox h4 {
-    margin: 7px 15px;
-    font-size: 9px;
+@media (min-width: 1200px) {
+  .container {
+    flex-direction: row;
   }
 
-  .ecopy span {
-
-    font-size: 9px;
-
+  .footer {
+    padding: 2rem;
   }
 
-  .footerContact {
-    font-size: 9px;
+  .footer h4 {
+    font-size: 15px;
   }
 
-  .footerFirstBox span {
-    font-size: 9px;
-    margin: 4px 10px;
+  .footer p {
+    font-size: 15px;
   }
 
-  .footerLogos div {
-    display: flex;
-    margin-left: 6px;
-    align-items: center;
-    justify-content: center;
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
-
+  .links a {
+    font-size: 15px;
   }
 
-  .risks {
-    margin: 0;
+  .imageLogo {
+    font-size: 20px;
   }
 
-  .risks a {
-    margin: 0 14px;
-    font-size: 9px;
-    padding-top: 3px;
+  .imageLogo img {
+    width: 65px;
+  }
+}
 
+@media (min-width: 1400px) {
+  .footer {
+    padding: 3rem;
   }
 
-  .footerSecondBox h4 {
-    margin: 4px 14px;
-    font-size: 9px;
+  .footer h4 {
+    font-size: 18px;
   }
 
-  .footerSecondBox h3 {
-    margin: 10px;
-    font-size: 9px;
+  .footer p {
+    font-size: 18px;
   }
 
-  .footerLogoContainer {
-    font-size: 9px;
+  .links a {
+    font-size: 18px;
+  }
+
+  .imageLogo {
+    font-size: 28px;
+  }
+
+  .imageLogo img {
+    width: 90px;
   }
 }

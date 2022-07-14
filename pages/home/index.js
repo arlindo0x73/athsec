@@ -263,7 +263,7 @@ const Home = () => {
         </Link>
       </div>
 
-      <div className="bg-blue py-5">
+      <div className="bg-blue">
         <div className="container py-5">
           <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-indicators">
