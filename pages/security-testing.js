@@ -51,124 +51,126 @@ const cdp = () => {
           </div>
         </div>
 
-        <div className="row p-5">
-          <div className="col-md-4">
-            <div className="row">
-              <div className="col-md-2" style={{ background: '#FF2E47', width: '3.5rem', height: '3.5rem', borderRadius: '100%' }}></div>
-              <div className="col-md-10 mt-4">
-                <h5 className={styleMain.titleRed}>Regulamento Geral de Proteção de Dados (GDPR)</h5>
-                <p>
-                  O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
-                  armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
-                </p>
+        <div className={styleMain.circleInfoContainer}>
+          <div className="row p-5">
+            <div className="col-md-4">
+              <div className="row">
+                <div className={`col-md-2 ${styleMain.circle}`}></div>
+                <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
+                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
+                  <p>
+                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
+                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-4">
+              <div className="row">
+                <div className={`col-md-2 ${styleMain.circle}`}></div>
+                <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
+                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
+                  <p>
+                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
+                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-4">
+              <div className="row">
+                <div className={`col-md-2 ${styleMain.circle}`}></div>
+                <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
+                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
+                  <p>
+                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
+                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
+                  </p>
+                </div>
               </div>
             </div>
           </div>
 
-          <div className="col-md-4">
-            <div className="row">
-              <div className="col-md-2" style={{ background: '#FF2E47', width: '3.5rem', height: '3.5rem', borderRadius: '100%' }}></div>
-              <div className="col-md-10 mt-4">
-                <h5 className={styleMain.titleRed}>Regulamento Geral de Proteção de Dados (GDPR)</h5>
-                <p>
-                  O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
-                  armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
-                </p>
+          <div className="row p-5">
+            <div className="col-md-4">
+              <div className="row">
+                <div className={`col-md-2 ${styleMain.circle}`}></div>
+                <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
+                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
+                  <p>
+                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
+                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-4">
+              <div className="row">
+                <div className={`col-md-2 ${styleMain.circle}`}></div>
+                <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
+                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
+                  <p>
+                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
+                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-4">
+              <div className="row">
+                <div className={`col-md-2 ${styleMain.circle}`}></div>
+                <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
+                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
+                  <p>
+                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
+                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
+                  </p>
+                </div>
               </div>
             </div>
           </div>
 
-          <div className="col-md-4">
-            <div className="row">
-              <div className="col-md-2" style={{ background: '#FF2E47', width: '3.5rem', height: '3.5rem', borderRadius: '100%' }}></div>
-              <div className="col-md-10 mt-4">
-                <h5 className={styleMain.titleRed}>Regulamento Geral de Proteção de Dados (GDPR)</h5>
-                <p>
-                  O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
-                  armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
-                </p>
+          <div className="row p-5">
+            <div className="col-md-4">
+              <div className="row">
+                <div className={`col-md-2 ${styleMain.circle}`}></div>
+                <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
+                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
+                  <p>
+                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
+                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
 
-        <div className="row p-5">
-          <div className="col-md-4">
-            <div className="row">
-              <div className="col-md-2" style={{ background: '#FF2E47', width: '3.5rem', height: '3.5rem', borderRadius: '100%' }}></div>
-              <div className="col-md-10 mt-4">
-                <h5 className={styleMain.titleRed}>Regulamento Geral de Proteção de Dados (GDPR)</h5>
-                <p>
-                  O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
-                  armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
-                </p>
+            <div className="col-md-4">
+              <div className="row">
+                <div className={`col-md-2 ${styleMain.circle}`}></div>
+                <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
+                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
+                  <p>
+                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
+                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className="col-md-4">
-            <div className="row">
-              <div className="col-md-2" style={{ background: '#FF2E47', width: '3.5rem', height: '3.5rem', borderRadius: '100%' }}></div>
-              <div className="col-md-10 mt-4">
-                <h5 className={styleMain.titleRed}>Regulamento Geral de Proteção de Dados (GDPR)</h5>
-                <p>
-                  O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
-                  armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-4">
-            <div className="row">
-              <div className="col-md-2" style={{ background: '#FF2E47', width: '3.5rem', height: '3.5rem', borderRadius: '100%' }}></div>
-              <div className="col-md-10 mt-4">
-                <h5 className={styleMain.titleRed}>Regulamento Geral de Proteção de Dados (GDPR)</h5>
-                <p>
-                  O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
-                  armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="row p-5">
-          <div className="col-md-4">
-            <div className="row">
-              <div className="col-md-2" style={{ background: '#FF2E47', width: '3.5rem', height: '3.5rem', borderRadius: '100%' }}></div>
-              <div className="col-md-10 mt-4">
-                <h5 className={styleMain.titleRed}>Regulamento Geral de Proteção de Dados (GDPR)</h5>
-                <p>
-                  O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
-                  armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-4">
-            <div className="row">
-              <div className="col-md-2" style={{ background: '#FF2E47', width: '3.5rem', height: '3.5rem', borderRadius: '100%' }}></div>
-              <div className="col-md-10 mt-4">
-                <h5 className={styleMain.titleRed}>Regulamento Geral de Proteção de Dados (GDPR)</h5>
-                <p>
-                  O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
-                  armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-4">
-            <div className="row">
-              <div className="col-md-2" style={{ background: '#FF2E47', width: '3.5rem', height: '3.5rem', borderRadius: '100%' }}></div>
-              <div className="col-md-10 mt-4">
-                <h5 className={styleMain.titleRed}>Regulamento Geral de Proteção de Dados (GDPR)</h5>
-                <p>
-                  O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
-                  armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
-                </p>
+            <div className="col-md-4">
+              <div className="row">
+                <div className={`col-md-2 ${styleMain.circle}`}></div>
+                <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
+                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
+                  <p>
+                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
+                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -194,42 +196,44 @@ const cdp = () => {
           </div>
         </div>
 
-        <div className="row p-5">
-          <div className="col-md-4">
-            <div className="row">
-              <div className="col-md-2" style={{ background: '#141E2E', width: '3.5rem', height: '3.5rem', borderRadius: '100%' }}></div>
-              <div className="col-md-10 mt-4">
-                <h5 className="fw-bold">Avaliação de risco de segurançada informação</h5>
-                <p>
-                  O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
-                  armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
-                </p>
+        <div className={styleMain.circleInfoContainer}>
+          <div className="row p-5">
+            <div className="col-md-4">
+              <div className="row">
+                <div className={`col-md-2 ${styleMain.circle}`}></div>
+                <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
+                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
+                  <p>
+                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
+                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className="col-md-4">
-            <div className="row">
-              <div className="col-md-2" style={{ background: '#141E2E', width: '3.5rem', height: '3.5rem', borderRadius: '100%' }}></div>
-              <div className="col-md-10 mt-4">
-                <h5 className="fw-bold">Conformidade regualatória</h5>
-                <p>
-                  O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
-                  armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
-                </p>
+            <div className="col-md-4">
+              <div className="row">
+                <div className={`col-md-2 ${styleMain.circle}`}></div>
+                <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
+                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
+                  <p>
+                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
+                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className="col-md-4">
-            <div className="row">
-              <div className="col-md-2" style={{ background: '#141E2E', width: '3.5rem', height: '3.5rem', borderRadius: '100%' }}></div>
-              <div className="col-md-10 mt-4">
-                <h5 className="fw-bold">Resposta a incidentes</h5>
-                <p>
-                  O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
-                  armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
-                </p>
+            <div className="col-md-4">
+              <div className="row">
+                <div className={`col-md-2 ${styleMain.circle}`}></div>
+                <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
+                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
+                  <p>
+                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
+                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -306,42 +310,44 @@ const cdp = () => {
           </div>
         </div>
 
-        <div className="row p-5">
-          <div className="col-md-4">
-            <div className="row">
-              <div className="col-md-2" style={{ background: '#FF2E47', width: '3.5rem', height: '3.5rem', borderRadius: '100%' }}></div>
-              <div className="col-md-10 mt-4">
-                <h5 className={styleMain.titleRed}>Regulamento Geral de Proteção de Dados (GDPR)</h5>
-                <p>
-                  O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
-                  armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
-                </p>
+        <div className={styleMain.circleInfoContainer}>
+          <div className="row p-5">
+            <div className="col-md-4">
+              <div className="row">
+                <div className={`col-md-2 ${styleMain.circle}`}></div>
+                <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
+                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
+                  <p>
+                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
+                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className="col-md-4">
-            <div className="row">
-              <div className="col-md-2" style={{ background: '#FF2E47', width: '3.5rem', height: '3.5rem', borderRadius: '100%' }}></div>
-              <div className="col-md-10 mt-4">
-                <h5 className={styleMain.titleRed}>Regulamento Geral de Proteção de Dados (GDPR)</h5>
-                <p>
-                  O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
-                  armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
-                </p>
+            <div className="col-md-4">
+              <div className="row">
+                <div className={`col-md-2 ${styleMain.circle}`}></div>
+                <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
+                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
+                  <p>
+                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
+                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className="col-md-4">
-            <div className="row">
-              <div className="col-md-2" style={{ background: '#FF2E47', width: '3.5rem', height: '3.5rem', borderRadius: '100%' }}></div>
-              <div className="col-md-10 mt-4">
-                <h5 className={styleMain.titleRed}>Regulamento Geral de Proteção de Dados (GDPR)</h5>
-                <p>
-                  O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
-                  armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
-                </p>
+            <div className="col-md-4">
+              <div className="row">
+                <div className={`col-md-2 ${styleMain.circle}`}></div>
+                <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
+                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
+                  <p>
+                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
+                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
+                  </p>
+                </div>
               </div>
             </div>
           </div>

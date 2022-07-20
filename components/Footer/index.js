@@ -59,7 +59,7 @@ const Footer = () => {
           <h4>CONECTE-NOS</h4>
 
           <div className={style.links}>
-            <Link href="">Contactos</Link>
+            <Link href="/contacts">Contactos</Link>
             <Link href="">Login</Link>
             <Link href="">Carreira</Link>
           </div>

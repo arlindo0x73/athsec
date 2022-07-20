@@ -51,133 +51,126 @@ const index = () => {
           </div>
         </div>
 
-        <div className="row p-5">
-          <div className="col-md-4">
-            <div className="row">
-              <div className="col-md-2" style={{ background: '#FF2E47', width: '3.5rem', height: '3.5rem', borderRadius: '100%' }}></div>
-              <div className="col-md-10 mt-4">
-                <h5 className={styleMain.titleRed}>Teste de penetração de rede interna</h5>
-                <p>
-                  Simulamos ataques do mundo real para fornecer uma avaliação pontual de vulnerabilidades e
-                  ameaças à sua infraestrutura de rede interna, Durante esta fase, realizamos varreduras de portas,
-                  varreduras de vulnerabilidades e testes para todos os computadores, dispositivos, bancos de dados
-                  e equipamentos em redes dentro do escopo.
-                </p>
+        <div className={styleMain.circleInfoContainer}>
+          <div className="row p-5">
+            <div className="col-md-4">
+              <div className="row">
+                <div className={`col-md-2 ${styleMain.circle}`}></div>
+                <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
+                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
+                  <p>
+                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
+                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-4">
+              <div className="row">
+                <div className={`col-md-2 ${styleMain.circle}`}></div>
+                <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
+                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
+                  <p>
+                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
+                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-4">
+              <div className="row">
+                <div className={`col-md-2 ${styleMain.circle}`}></div>
+                <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
+                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
+                  <p>
+                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
+                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
+                  </p>
+                </div>
               </div>
             </div>
           </div>
 
-          <div className="col-md-4">
-            <div className="row">
-              <div className="col-md-2" style={{ background: '#FF2E47', width: '3.5rem', height: '3.5rem', borderRadius: '100%' }}></div>
-              <div className="col-md-10 mt-4">
-                <h5 className={styleMain.titleRed}>Teste de penetração de rede externa</h5>
-                <p>
-                  Simulamos ataques do mundo real na sua infraestrutura por meio de um Teste
-                  externa para descobrir se um invasor pode invadir sua rede por meio dos serviços
-                  que escutam seus endereços IP externos, descobrimos todos os ativos voltados para a
-                  Internet que um hacker pode encontrar como possíveis pontos de entrada em sua rede.
-                </p>
+          <div className="row p-5">
+            <div className="col-md-4">
+              <div className="row">
+                <div className={`col-md-2 ${styleMain.circle}`}></div>
+                <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
+                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
+                  <p>
+                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
+                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-4">
+              <div className="row">
+                <div className={`col-md-2 ${styleMain.circle}`}></div>
+                <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
+                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
+                  <p>
+                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
+                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-4">
+              <div className="row">
+                <div className={`col-md-2 ${styleMain.circle}`}></div>
+                <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
+                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
+                  <p>
+                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
+                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
+                  </p>
+                </div>
               </div>
             </div>
           </div>
 
-          <div className="col-md-4">
-            <div className="row">
-              <div className="col-md-2" style={{ background: '#FF2E47', width: '3.5rem', height: '3.5rem', borderRadius: '100%' }}></div>
-              <div className="col-md-10 mt-4">
-                <h5 className={styleMain.titleRed}>Teste de penetraçãoem aplicações mobile</h5>
-                <p>
-                  O nosso teste de Segurança de APP Mobile e uma solução única combinada
-                  com SAST/DAST que permite com que a empresa saiba como modificar o design,
-                  o código e a arquitetura antes do lançamento oficial. É importante para
-                  organizações que desejam proteger aplicativos móveis contra ataques cibernéticos,
-                  O teste de penetração móvel é construído no padrão de verificação de segurança de aplicativos móveis OWASP
-                </p>
+          <div className="row p-5">
+            <div className="col-md-4">
+              <div className="row">
+                <div className={`col-md-2 ${styleMain.circle}`}></div>
+                <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
+                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
+                  <p>
+                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
+                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
 
-        <div className="row p-5">
-          <div className="col-md-4">
-            <div className="row">
-              <div className="col-md-2" style={{ background: '#FF2E47', width: '3.5rem', height: '3.5rem', borderRadius: '100%' }}></div>
-              <div className="col-md-10 mt-4">
-                <h5 className={styleMain.titleRed}>Teste de penetração em aplicatições web</h5>
-                <p>
-                  Com uma solução de Teste de segurança de aplicatições Web da CDP, fornecemos às
-                  equipes de desenvolvimento e controle de qualidade um relatório sobre vulnerabilidades
-                  críticas a de baixo nivel, alem de simular as ações de um invasor real, fornecemos orientação detalhadas de correção.
-                </p>
+            <div className="col-md-4">
+              <div className="row">
+                <div className={`col-md-2 ${styleMain.circle}`}></div>
+                <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
+                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
+                  <p>
+                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
+                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className="col-md-4">
-            <div className="row">
-              <div className="col-md-2" style={{ background: '#FF2E47', width: '3.5rem', height: '3.5rem', borderRadius: '100%' }}></div>
-              <div className="col-md-10 mt-4">
-                <h5 className={styleMain.titleRed}>Teste de engenharia social</h5>
-                <p>
-                  Nossa equipe é especializada em manipulação psicológica, uma Técnica usada
-                  por cibercriminosos, nos avaliamos com precisão a capacidade de seus funcionários
-                  de detectar e responder a ataques cibernéticos,
-                  ensinamos os funcionários a lidar com ataques de engenharia social para estarem preparados.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-4">
-            <div className="row">
-              <div className="col-md-2" style={{ background: '#FF2E47', width: '3.5rem', height: '3.5rem', borderRadius: '100%' }}></div>
-              <div className="col-md-10 mt-4">
-                <h5 className={styleMain.titleRed}>Teste de penetraçãoem pós-comprometimento</h5>
-                <p>
-                  O nosso Teste de Segurança PÔS comprometimento e a melhor solução para a sua organização,
-                  Os nossos Analistas de Segurança (Pentesters), começaram como um usuário normal e
-                  tentaram obter acesso a outros sistemas, identificaram informações confidenciais,
-                  escalar privilégios na rede e migrar para outras áreas da rede usando um sistema local como um Usuário normal.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="row p-5">
-          <div className="col-md-4">
-            <div className="row">
-              <div className="col-md-2" style={{ background: '#FF2E47', width: '3.5rem', height: '3.5rem', borderRadius: '100%' }}></div>
-              <div className="col-md-10 mt-4">
-                <h5 className={styleMain.titleRed}>Cyber Defense endpoint</h5>
-                <p>
-                  Automatize o monitoramento de endpoint para maximizar a segurança local de cada dispositivo.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-4">
-            <div className="row">
-              <div className="col-md-2" style={{ background: '#FF2E47', width: '3.5rem', height: '3.5rem', borderRadius: '100%' }}></div>
-              <div className="col-md-10 mt-4">
-                <h5 className={styleMain.titleRed}>Cyber Defense Testing</h5>
-                <p>
-                  Obtenha uma visão abrangente de sua infraestrutura de segurança cibernética atual.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-4">
-            <div className="row">
-              <div className="col-md-2" style={{ background: '#FF2E47', width: '3.5rem', height: '3.5rem', borderRadius: '100%' }}></div>
-              <div className="col-md-10 mt-4">
-                <h5 className={styleMain.titleRed}>Treinamento e conscientização</h5>
-                <p>
-                  Certifique-se de que suas equipes internas estejam equipadas para ser a primeira linha de defesa contra qualquer possível ataque cibernético.
-                </p>
+            <div className="col-md-4">
+              <div className="row">
+                <div className={`col-md-2 ${styleMain.circle}`}></div>
+                <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
+                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
+                  <p>
+                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
+                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -202,45 +195,44 @@ const index = () => {
           </div>
         </div>
 
-        <div className="row p-5">
-          <div className="col-md-4">
-            <div className="row">
-              <div className="col-md-2" style={{ background: '#141E2E', width: '3.5rem', height: '3.5rem', borderRadius: '100%' }}></div>
-              <div className="col-md-10 mt-4">
-                <h5 className="fw-bold">Descubra vulnerabilidades críticas em seu ambiente</h5>
-                <p>
-                  Assim como uma avaliação de vulnerabilidade, um teste de penetração revela se uma organização é potencialmente
-                  vulnerável a ataques cibernéticos e fornece recomendações sobre como fortalecer sua postura de segurança.
-                </p>
+        <div className={styleMain.circleInfoContainer}>
+          <div className="row p-5">
+            <div className="col-md-4">
+              <div className="row">
+                <div className={`col-md-2 ${styleMain.circle}`}></div>
+                <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
+                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
+                  <p>
+                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
+                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className="col-md-4">
-            <div className="row">
-              <div className="col-md-2" style={{ background: '#141E2E', width: '3.5rem', height: '3.5rem', borderRadius: '100%' }}></div>
-              <div className="col-md-10 mt-4">
-                <h5 className="fw-bold">Priorize e enfrente os riscos</h5>
-                <p>
-                  Um teste de penetração bem executado fornece uma visão geral detalhada das vulnerabilidades exploráveis de sua organização e inclui
-                  recomendações acionáveis sobre como você pode otimizar seus níveis de proteção a curto, médio e longo prazo.
-                </p>
+            <div className="col-md-4">
+              <div className="row">
+                <div className={`col-md-2 ${styleMain.circle}`}></div>
+                <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
+                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
+                  <p>
+                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
+                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className="col-md-4">
-            <div className="row">
-              <div className="col-md-2" style={{ background: '#141E2E', width: '3.5rem', height: '3.5rem', borderRadius: '100%' }}></div>
-              <div className="col-md-10 mt-4">
-                <h5 className="fw-bold">Atenda à conformidade com os padrões e regulamentos do setor</h5>
-                <p>
-                  Se  a sua organização precisa cumprir determinados padrões e regulamentações do setor,
-                  um teste de penetração realizado regularmente é o primeiro passo para alcançar a conformidade.
-                  Estruturas de conformidade comuns incluem ISO 27001, NIST, Payment Card Industry Data
-                  Security Standard (PCI DSS), que exige testes de penetração anuais e contínuos
-                  (em caso de alterações no sistema ou Actualizações de Segurança).
-                </p>
+            <div className="col-md-4">
+              <div className="row">
+                <div className={`col-md-2 ${styleMain.circle}`}></div>
+                <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
+                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
+                  <p>
+                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
+                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
+                  </p>
+                </div>
               </div>
             </div>
           </div>
