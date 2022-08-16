@@ -25,14 +25,14 @@ const Menu = () => {
         >
           <path
             d="M0 9.08805C0 7.5348 1.25916 6.27563 2.81241 6.27563C4.36567 6.27563 5.62483 7.5348 5.62483 9.08805V41.8143C5.62483 43.3676 4.36567 44.6267 2.81241 44.6267C1.25916 44.6267 0 43.3676 0 41.8143V9.08805Z"
-            fill="#FF2E47"
+            fill="#000"
           />
           <rect
             x="11.8784"
             width="5.62483"
             height="38.3511"
             rx="2.81241"
-            fill="#FF2E47"
+            fill="#000"
           />
           <rect
             x="24.1689"
@@ -40,7 +40,7 @@ const Menu = () => {
             width="5.62483"
             height="38.3511"
             rx="2.81241"
-            fill="#FF2E47"
+            fill="#000"
           />
         </svg>
       </div>
@@ -89,7 +89,7 @@ const Menu = () => {
               <Link href="/about">
                 <li>About</li>
               </Link>
-              <Link href="/">
+              <Link href="/partners">
                 <li>Parceiros</li>
               </Link>
               <Link href="/">

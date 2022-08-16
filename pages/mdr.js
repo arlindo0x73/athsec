@@ -4,6 +4,7 @@ import Menu from '../components/Menu'
 import Footer from '../components/Footer'
 import styleMain from './styles/services.module.css'
 import Link from "next/link";
+import Image from "next/image"
 
 const index = () => {
   return (
@@ -14,39 +15,37 @@ const index = () => {
         <div className={styleMain.row}>
           <div className={styleMain.rowContent}>
             <h2 className={styleMain.rowContentTitle}>
-              Cyber Defense Managemant<br />
-              Detecte e responda<br />
-              Ameaças de segurança
+              Cyber Defense Detecção e Resposta Gerenciada (CDMDR)
             </h2>
             <p className={styleMain.rowContentText}>
-              Avalie totalmente as capacidades de detecção e resposta<br />
-              de ameaças da sua organização.
+              Aproveitamos a tecnologia de segurança de ponta combinada com nossa inteligência
+              humana para fornecer monitoramento interrupto 24x7 de seus terminais,
+              redes, nuvem e identidades para detectar e responder aos ataques cibernéticos mais furtivos e sofisticados.
             </p>
-            <Link href="">
-              <button className={styleMain.button}>Iniciar</button>
-            </Link>
           </div>
           <div className={styleMain.rowImage}>
-            <img src="/Icons/cloud-computing.png" className="" alt="" />
+            <Image src="/Icons/mdr-1.png" width="550" height="550" alt="" />
           </div>
         </div>
       </section>
 
       <div className={styleMain.containerOther}>
-        <div className={styleMain.row} >
+        <div className={styleMain.row}>
           <div className={styleMain.rowImage}>
-            <img src="/Icons/09.svg" className="" alt="" />
+            <Image src="/Icons/mdr-2.png" width="550" height="450" alt="" />
           </div>
           <div className={styleMain.rowContent}>
             <h2 className={styleMain.rowContentTitle}>
-              Cyber Defense Management Security
+              CD - Detecção e Resposta Gerenciada
             </h2>
             <p className={styleMain.rowContentText}>
-              A CDPMS - é um plano da ATHSec que identifica ataques que <br />
-              possam ocorrer futuramente, monitoram ataques que estejam prestes a <br />
-              acontecer, identifica vulnerabilidades locais, e nos informa por meio <br />
-              de alertas que podem ser enviados por e-mail, assim protegendo a sua <br />
-              empresa 24/dia, 7 dias/semana 30 dias/mês;
+              A CDMDR aproveita o conceito de inteligência homem-máquina para fornecer detecção e
+              análise precisa de ameaças, bem como assistência de resposta acionável
+              para eliminar ameaças e evitar incidentes catastróficos de segurança
+              ocorrendo. Além de implementar e aprimorar suas operações de
+              segurança e se proteger melhor de um cenário de ameaças cada
+              vez maior, Construimos uma equipe de operações de segurança melhor
+              composta por equipes internas e especialistas de segurança externos ( Cyber Defenders ).
             </p>
           </div>
         </div>
@@ -57,10 +56,11 @@ const index = () => {
               <div className="row">
                 <div className={`col-md-2 ${styleMain.circle}`}></div>
                 <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
-                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
+                  <h2>Análise e identificação de ameaças</h2>
                   <p>
-                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
-                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
+                    Detecção, análise e verificação de ameaças 24x7, aproveitando recursos de detecção habilitados
+                    para IA e profissionais de segurança experientes para identificar e analisar ameaças com precisão
+                    e fornecer notificações em tempo hábil.
                   </p>
                 </div>
               </div>
@@ -70,10 +70,12 @@ const index = () => {
               <div className="row">
                 <div className={`col-md-2 ${styleMain.circle}`}></div>
                 <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
-                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
+                  <h2>Resposta e correção 24x7</h2>
                   <p>
-                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
-                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
+                    Assistência de resposta a ameaças relevante ao contexto prestada remotamente por nossa equipe
+                    de especialistas em segurança para ajudar os clientes a gerenciar e erradicar as ameaças detectadas.
+                    Abrange assistência de contenção de emergência, detecção e análise de impacto,
+                    investigações de rastreabilidade e recomendações de melhoria.
                   </p>
                 </div>
               </div>
@@ -83,10 +85,10 @@ const index = () => {
               <div className="row">
                 <div className={`col-md-2 ${styleMain.circle}`}></div>
                 <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
-                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
+                  <h2>Rastreamento de ativos</h2>
                   <p>
-                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
-                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
+                    Revisão inicial e regular dos ativos no escopo para rastrear e identificar alterações não autorizadas,
+                    bem como fornecer contexto adequado ao serviço.
                   </p>
                 </div>
               </div>
@@ -98,10 +100,12 @@ const index = () => {
               <div className="row">
                 <div className={`col-md-2 ${styleMain.circle}`}></div>
                 <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
-                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
+                  <h2>Cyber Defenders MSS</h2>
                   <p>
-                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
-                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
+                    Ao empregar a ATHSec ( Cyber Defenders ) como provedor de Segurança Gerenciada,
+                    as empresas recebem acesso 24 horas por dia a uma equipe de profissionais
+                    de segurança experientes e exercícios proativos de caça a ameaças trimestrais,
+                    bem como qualquer consultoria ou recomendação relacionada incluída na CDMDR.
                   </p>
                 </div>
               </div>
@@ -111,170 +115,11 @@ const index = () => {
               <div className="row">
                 <div className={`col-md-2 ${styleMain.circle}`}></div>
                 <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
-                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
+                  <h2>Reporte</h2>
                   <p>
-                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
-                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
+                    Tenha acesso à visão geral de segurança em tempo real do ambiente monitorado do cliente,
+                    incluindo casos abertos e fechados, visão de segurança dos ativos monitorados, bem como acesso a relatórios regulares.
                   </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-4">
-              <div className="row">
-                <div className={`col-md-2 ${styleMain.circle}`}></div>
-                <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
-                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
-                  <p>
-                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
-                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="row p-5">
-            <div className="col-md-4">
-              <div className="row">
-                <div className={`col-md-2 ${styleMain.circle}`}></div>
-                <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
-                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
-                  <p>
-                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
-                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-4">
-              <div className="row">
-                <div className={`col-md-2 ${styleMain.circle}`}></div>
-                <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
-                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
-                  <p>
-                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
-                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-4">
-              <div className="row">
-                <div className={`col-md-2 ${styleMain.circle}`}></div>
-                <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
-                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
-                  <p>
-                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
-                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className={styleMain.row} >
-          <div className={styleMain.rowImage}>
-            <img src="/Icons/432.png" className="" alt="" />
-          </div>
-          <div className={styleMain.rowContent}>
-            <h2 className={styleMain.rowContentTitle}>
-              Razões para realizar um pentest
-            </h2>
-            <p className={styleMain.rowContentText}>
-              O teste de Penetração da CDP visa identificar vulnerabilidades <br />
-              e riscos no sistema que podem afetar a confidencialidade, <br />
-              integridade e disponibilidade dos dados. Nessa abordagem contamos <br />
-              com analistas de segurança que trabalham como hackers (hackers éticos) <br />
-              para identificar as brechas de segurança descobertas <br />
-              em suas Infra-estruturas,APP/WEB/MOBILE, etc. <br />
-            </p>
-          </div>
-        </div>
-
-        <div className={styleMain.circleInfoContainer}>
-          <div className="row p-5">
-            <div className="col-md-4">
-              <div className="row">
-                <div className={`col-md-2 ${styleMain.circle}`}></div>
-                <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
-                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
-                  <p>
-                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
-                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-4">
-              <div className="row">
-                <div className={`col-md-2 ${styleMain.circle}`}></div>
-                <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
-                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
-                  <p>
-                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
-                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-4">
-              <div className="row">
-                <div className={`col-md-2 ${styleMain.circle}`}></div>
-                <div className={`col-md-10 mt-4 ${styleMain.circleInfo}`}>
-                  <h2>Regulamento Geral de Proteção de Dados (GDPR)</h2>
-                  <p>
-                    O regulamento GDPR é complexo e tem um impacto significativo na maneira como você coleta, processa,
-                    armazena e dá acesso aos dados que possui. Confie em nos para aumentar seu nível de conformidade de privacidade!
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="row">
-          <div className="col-md-4">
-            <h2 className="fw-bold">CYBER DEFENSE MANAGEMENT SECURITY</h2>
-            <h4 className="fw-bold">Nossos preços</h4>
-            <h5>SEGURANÇA DIGITAL QUE CABE NO SEU BOLSO</h5>
-            <p>Protegemos você e a sua família</p>
-          </div>
-          <div className="col-md-8">
-            <div className={styleMain.fourthCardsContainer}>
-              <div className={styleMain.cardService}>
-                <div className={styleMain.cardServiceImage}>
-                  <img src="/Icons/preparation.png" alt="Management Security" className={styleMain.image} />
-                </div>
-                <div className={styleMain.cardServiceTexts}>
-                  <h2>CDMS - SOC</h2>
-                  <p>
-
-                  </p>
-                  <Link href="">
-                    <button>Iniciar</button>
-                  </Link>
-                </div>
-              </div>
-
-              <div className={styleMain.cardService}>
-                <div className={styleMain.cardServiceImage}>
-                  <img src="/Icons/information-consulting.png" alt="Management Security" className={styleMain.image} />
-                </div>
-                <div className={styleMain.cardServiceTexts}>
-                  <h2>Insfrastructure Penetration Testing</h2>
-                  <p>
-                    Deixe nos transformar seus sistemas para minimizar o risco e
-                    torná-los compatível rapidamente.
-                  </p>
-                  <Link href="">
-                    <button>Iniciar</button>
-                  </Link>
                 </div>
               </div>
             </div>
@@ -282,19 +127,15 @@ const index = () => {
         </div>
 
         <div className={styleMain.plans}>
-          <h3 className={styleMain.secondHomeinfo}>
-            Soluções de segurança customizadas ao seu negócio
+          <h3 className={styleMain.plansInfo}>
+            Serviços MDR para empresas de qualquer tamanho
           </h3>
           <p className={styleMain.secondInfo}>
-            Lorem ipsum dolor sit amet sed, consectetur adipiscing elit Lorem
-            ipsum dolor sit
-            <br /> amet sed, consectetur adipiscing elit Lorem ipsum dolor sit
-            amet sed
-            <br /> consectetur adipiscing elit Lorem ipsum dolor sit amet sed,
-            <br /> consectetur adipiscing elit
+            Nossas tecnologias gerenciadas de detecção e resposta e especialistas em
+            segurança<br/> atendem seus negócios remotamente para mantê-lo<br/>  protegido para que você possa se concentrar em sua empresa.
           </p>
-          <Link href="" className={styleMain.button}>
-            <button className={styleMain.button}>Planos</button>
+          <Link href="/contacts" className={styleMain.button}>
+            <button className={styleMain.button}>Iniciar</button>
           </Link>
         </div>
       </div>

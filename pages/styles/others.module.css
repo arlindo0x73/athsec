@@ -1,11 +1,27 @@
-
 .backgroundBanner {
   background-image: url('../../public/Icons/banner.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.button, .secondButton, .buttonOutline {
+.bannerPartner {
+  background-image: url('../../public/Icons/partner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title {
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+/**/
+.firstContainer {
+  height: 65vh;
+}
+
+.button {
   border: 0;
   border-radius: 25px;
   outline: 0;
@@ -14,42 +30,21 @@
   font-size: 20px;
   font-weight: bold;
   transition: all 0.5s;
+  font-family: 'NaumPen';
+  color: #fff;
+  background: #000000;
 }
 
-.button:hover, .secondButton:hover, .buttonOutline:hover {
+.button:hover {
   transition: all 0.5s;
   width: 200px;
   height: 40px;
-  background: #FF2E47;
+  background: #000000;
   color: #fff;
-  border: 1px solid #fff;
-}
-
-.button {
-  color: #FF2E47;
-  background: #fff;
-}
-
-.secondButton {
-  color: #fff;
-  background: #FF2E47;
-}
-
-.buttonOutline {
-  color: #141E2E;
-  background-color: white;
-  border: 1px solid #141E2E;
-}
-
-.imageSide {
-  width: 25rem;
-  height: 25rem;
 }
 
 .texts {
-  font-family: 'Lexend', sans-serif;
-  font-weight: 100;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .sectionBlue {
@@ -65,27 +60,75 @@
 }
 
 .smallInfoWhithImage svg {
-  width: 70px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   margin: 10px;
 }
 
 .smallInfoWhithImage h2 {
   font-size: 20px;
-  color: #FF2E47;
+  color: #000000;
   font-weight: bold;
   text-align: start;
 }
 
 .smallInfoWhithImage p {
-  font-size: 12px;
-  color: #141E2E;
+  font-size: 17px;
+  color: #000000;
   text-align: start;
 }
 
+.listEMail {
+  list-style: none;
+  text-align: start;
+}
 
-@media (max-width: 576px) {
+/*
+  Políticas
+*/
+.content {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 0rem;
+}
+
+.content div {
+  width: 1200px;
+}
+
+.titlePolicy {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.subTitlePolicy {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+
+@media (min-width: 300px) {
   .imageSide {
     display: none;
+  }
+
+  .imagePartner {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .imagePartner {
+    display: block;
+  }
+
+  .imageSide {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .calendly {
+    margin: 10rem 0rem;
   }
 }

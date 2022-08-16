@@ -2,7 +2,7 @@
   width: 100%;
   margin-top: 140px;
   padding: 3rem;
-  background: #141e2e;
+  background: #070606;
 }
 
 .footer a {
@@ -23,7 +23,7 @@
 
 .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .imageLogo img {
@@ -66,6 +66,13 @@
   height: 35px;
   border-radius: 20px;
   background-color: #DEDCDC;
+}
+
+.footerInfoBottom {
+  display: flex;
+  flex-direction: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
 }
 
 @media (min-width: 300px) {
@@ -127,5 +134,9 @@
 
   .imageLogo img {
     width: 90px;
+  }
+
+  .footerInfoBottom .footerLogos {
+    margin-left: 44rem;
   }
 }

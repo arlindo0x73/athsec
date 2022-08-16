@@ -5,6 +5,7 @@ import Footer from '../components/Footer'
 import "bootstrap/dist/css/bootstrap.css"
 import style from "./styles/others.module.css"
 import Link from "next/link"
+import Image from "next/image"
 
 const Plans = () => {
   return (
@@ -12,20 +13,19 @@ const Plans = () => {
       <section className={style.backgroundBanner}>
         <Header title="Sobre" />
         <Menu />
-        <div className="container">
-          <div className="row p-5">
-            <div className="col-md-6 mt-5 text-light">
-              <h1 className="fw-bold mb-5">Athsec Information Security Consulting E.I</h1>
-              <p className={style.texts}>
-                Avalie totalmente as capacidades de detecção e resposta de ameaças da sua organização.
-              </p>
+        <div className={style.firstContainer}>
+          <div className="container">
+            <div className="row p-5">
+              <div className="col-md-6 mt-5 text-light">
+                <h1 className={style.title}>Seu negócio sob nossa proteção</h1>
+                <p className={style.texts}>
+                  Cyber Defenders Workstation
+                </p>
 
-              <Link href="">
-                <button className={style.button}>Saber mais</button>
-              </Link>
-            </div>
-            <div className="col-md-6 py-5">
-              <img src="/Icons/fav_light.png" alt="" className={style.imageSide} />
+                <Link href="">
+                  <button className={style.button}>Saber mais</button>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
@@ -35,22 +35,18 @@ const Plans = () => {
         <div className="container">
           <div className="row py-5">
             <div className="col-md-6">
-              <img src="/Icons/about-us.png" alt="" className={style.imageSide} />
+              <Image src="/Icons/fav_dark.png" width="490" height="490" alt="" />
             </div>
             <div className="col-md-5 py-5">
               <h1 className="fw-bold mb-5">Quem somos ?</h1>
               <div className={style.texts}>
                 <p>
-                  ATHSec E.I é uma empresa especializada em Cibersegurança e operações RED Team, garantimos que nossos
-                  clientes estejam armados para prevenir, detectar e responder continuamente as ameaças cibernéticas.
+                  ATHSec™ é uma empresa de defesa cibernética que fornece Detecção e Resposta Gerenciadas,
+                  Avaliação de Segurança e Design de Arquitetura de
+                  Segurança, Trabalhamos para aumentar a resiliência contra a ciberameaças combinando
+                  nossas estratégias com seus objetivos de negócio. As equipes de resposta a incidentes da ATHSec
+                  ( Cyber Defenders Incident Response ) fornecem resposta rápida 24h/dia e investigação forense de uma violação.
                 </p>
-
-                <p>
-                  Fornecemos um conjunto abrangente de serviços de segurança cibernética para organizações
-                  que precisam de ajuda com sua postura de segurança.
-                </p>
-
-                <p>Previna dados operacionais e de reputação, previna perdas financerias e clientes.</p>
               </div>
             </div>
           </div>
@@ -84,20 +80,6 @@ const Plans = () => {
               </p>
             </div>
           </div>
-        </div>
-      </div>
-
-      <div className="py-5 text-center">
-        <div className="container">
-          <h2 className="fw-bold">Soluções de segurança customizadas para o seu negócio</h2>
-          <p className="">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quia reiciendis tempore ut libero vel aliquam minus
-            repellendus vitae illum, sunt eligendi. Laboriosam voluptate nemo ullam quaerat, modi tempora ad? Lorem ipsum dolor sit amet
-          </p>
-
-          <Link href="">
-            <button className={style.secondButton}>Saber mais</button>
-          </Link>
         </div>
       </div>
 
