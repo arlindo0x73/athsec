@@ -198,6 +198,10 @@
     padding: 0px;
   }
 
+  .rowContent {
+    width: 35rem;
+  }
+
   .rowContentTitle {
     margin: 20px;
     letter-spacing: 0.5px;
@@ -238,6 +242,10 @@
     padding-right: 0rem;
     padding-left: 0rem;
   }
+
+  .circleInfoContainer p {
+    font-size: 15px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -248,12 +256,35 @@
   .rowContentTitle {
     margin: 20px;
     letter-spacing: 0.5px;
-    font-size: 28px;
+    font-size: 34px;
   }
 
   .rowContentText {
     margin: 20px;
     font-size: 20px;
+  }
+
+  .circleInfoContainer {
+    padding-right: 0rem;
+    padding-left: 0rem;
+  }
+
+  .circleInfo h2 {
+    width: 160px;
+  }
+  
+  .circleInfo p {
+    width: 200px;
+  }
+}
+
+@media (min-width: 1008px) {
+  .circleInfo h2 {
+    width: 300px;
+  }
+  
+  .circleInfo p {
+    width: 300px;
   }
 }
 
@@ -261,7 +292,7 @@
   .rowContentTitle {
     margin: 20px;
     letter-spacing: 0.5px;
-    font-size: 30px;
+    font-size: 38px;
   }
 
   .rowContentText {

@@ -9,7 +9,7 @@ import Image from "next/image"
 const index = () => {
   return (
     <main className={styleMain.container}>
-      <Header title="Cyber defense management" />
+      <Header title="Cyber Defense Management and Response" />
       <Menu />
       <section className={styleMain.containerOther} style={{ marginTop: '4rem' }}>
         <div className={styleMain.row}>

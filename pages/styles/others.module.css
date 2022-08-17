@@ -19,6 +19,7 @@
 /**/
 .firstContainer {
   height: 65vh;
+  padding: 0rem 11rem;
 }
 
 .button {
@@ -98,6 +99,7 @@
 
 .titlePolicy {
   font-size: 30px;
+  font-weight: bold;
   margin-bottom: 20px;
 }
 
@@ -114,6 +116,14 @@
 
   .imagePartner {
     display: none;
+  }
+
+  .firstContainer {
+    padding: 0rem 0rem;
+  }
+
+  .content {
+    padding: 6rem 2rem;
   }
 }
 

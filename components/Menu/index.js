@@ -87,7 +87,7 @@ const Menu = () => {
                 <li>Home</li>
               </Link>
               <Link href="/about">
-                <li>About</li>
+                <li>Sobre</li>
               </Link>
               <Link href="/partners">
                 <li>Parceiros</li>

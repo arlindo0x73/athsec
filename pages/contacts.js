@@ -14,7 +14,7 @@ const contacts = () => {
         <Menu />
         <div className={style.firstContainer}>
           <div className="container">
-            <div className="row p-5">
+            <div className="row py-5">
               <div className="col-md-6 mt-5 text-light">
                 <h1 className={style.title}>Fale conosco e faça uma cotação </h1>
                 <p className={style.texts}>

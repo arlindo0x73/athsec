@@ -9,7 +9,7 @@ import Image from "next/image"
 const Plans = () => {
 	return (
 		<main className={styleMain.container}>
-			<Header title="Cyber defense compliance and risk" />
+			<Header title="Enterprise Cyber Defense" />
 			<Menu />
 			<section className={styleMain.containerOther} style={{ marginTop: '4rem' }}>
 				<div className={styleMain.row}>
@@ -25,7 +25,7 @@ const Plans = () => {
 						</p>
 					</div>
 					<div className={styleMain.rowImage}>
-						<Image src="/Icons/2.png" width="550" height="550" alt="" />
+						<Image src="/Icons/2.png" width="500" height="500" alt="" />
 					</div>
 				</div>
 			</section>
