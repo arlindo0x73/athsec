@@ -25,7 +25,7 @@ const Plans = () => {
 						</p>
 					</div>
 					<div className={styleMain.rowImage}>
-						<Image src="/Icons/2.png" width="500" height="500" alt="" />
+						<Image src="/Icons/2.png" width="550" height="550" alt="" />
 					</div>
 				</div>
 			</section>

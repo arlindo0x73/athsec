@@ -1,8 +1,7 @@
+
 .container {
-  height: 100%;
   display: flex;
   background: #f8f8f8;
-  align-items: center;
   flex-direction: column;
   font-family: 'Lexend', sans-serif;
 }
@@ -175,6 +174,7 @@
   color: #FF2E47;
   font-size: 16px;
   width: 300px;
+  font-weight: bold;
 }
 
 .circleInfo p {
@@ -264,11 +264,6 @@
     font-size: 20px;
   }
 
-  .circleInfoContainer {
-    padding-right: 0rem;
-    padding-left: 0rem;
-  }
-
   .circleInfo h2 {
     width: 160px;
   }
@@ -302,7 +297,6 @@
 }
 
 @media (min-width: 1400px) {
-
   .rowContent {
     width: 35rem;
   }

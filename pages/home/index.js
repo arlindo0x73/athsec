@@ -11,7 +11,7 @@ import Script from 'next/script'
 const Home = () => {
   return (
     <main className={style.container}>
-      <Header title="Página inicial" />
+      <Header title="ATHSec" />
       <Menu />
       <div className={style.firstContainer} id="home">
         <div className={style.homeContent}>
@@ -20,9 +20,9 @@ const Home = () => {
               Nós colocamos o<br /> seu negocio sob <br /> nossa proteção
             </h2>
 
-            <p className={style.secondInfo}>
-              Damos às organizações a confiança de que <br />
-              estão preparadas para combater os <br />
+            <p className={style.secondInfo} style={{ width: '20rem' }}>
+              Damos às organizações a confiança de que
+              estão preparadas para combater os
               adversários modernos.
             </p>
             <div className={style.homeButtons}>
@@ -75,21 +75,21 @@ const Home = () => {
         </div>
 
         <div className={style.secondHomeContentContainerOther}>
-          <div>
-            <h2 className={style.secondHomeinfo}>Repense na<br /> sua segurança</h2>
+          <div style={{ width: '27rem' }}>
+            <h2 className={style.secondHomeinfo}>Repense na sua segurança</h2>
             <p className={style.secondInfo}>
-              Na ATHSec trabalhamos de forma<br />
-              escalável e adaptátiva,<br />
-              combinamos a nossa inteligência, estratégia<br />
+              Na ATHSec trabalhamos de forma
+              escalável e adaptátiva,
+              combinamos a nossa inteligência, estratégia
               e alinhamos com os objetivos do seu negócio.
             </p>
 
             <p className={style.secondInfo}>
-              Ajudamos as organizações a reduzir<br /> o tempo de
-              inatividade, maximizar<br /> a capacidade de produção,<br />
-              otimizar o custo de manutenção<br /> dos ativos e acelerar<br />
-              a sua transformação digital, com a Cyber<br />
-              Defense Enterprise ajudamos<br /> as empresas diante da <b>incerteza!</b>
+              Ajudamos as organizações a reduzir o tempo de
+              inatividade, maximizar a capacidade de produção,
+              otimizar o custo de manutenção dos ativos e acelerar
+              a sua transformação digital, com a Cyber
+              Defense Enterprise ajudamos as empresas diante da <b>incerteza!</b>
             </p>
 
             <div className={style.secondAboutButtonGroup}>
@@ -99,7 +99,7 @@ const Home = () => {
             </div>
           </div>
           <div className={style.homeImage}>
-            <Image src="/Icons/7.png" width="550" height="550" alt="" />
+            <Image src="/Icons/8.png" width="632" height="529" alt="" />
           </div>
         </div>
       </div>
@@ -120,7 +120,7 @@ const Home = () => {
                   <div className={style.thirdButtonProfile}></div>
                   <div className={style.thirdButtonInfos}>
                     <Link href="">
-                      <h2>Nós Arquitetamos</h2>
+                      <h2>Nós arquitetamos</h2>
                     </Link>
                     <p>
                       E implementamos uma postura geral de segurança cibernética Empresarial.
@@ -131,7 +131,7 @@ const Home = () => {
                   <div className={style.thirdButtonProfile}></div>
                   <div className={style.thirdButtonInfos}>
                     <Link href="">
-                      <h2>Nós Arquitetamos</h2>
+                      <h2>Nós prevenimos</h2>
                     </Link>
                     <p>
                       Identificamos e erradicamos ameaças, nos aprofundamos em sua
@@ -146,7 +146,7 @@ const Home = () => {
                   <div className={style.thirdButtonProfile}></div>
                   <div className={style.thirdButtonInfos}>
                     <Link href="">
-                      <h2>Detectamos</h2>
+                      <h2>Nós detectamos</h2>
                     </Link>
                     <p>
                       Usamos detecção avançada de ameaças em profundidade
@@ -248,29 +248,6 @@ const Home = () => {
         <Link href="/contacts">
           <button>Contactos</button>
         </Link>
-      </div>
-
-      <div className="bg-blue">
-        <div className="container py-5">
-          <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
-            <div className="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1" style={{ width: '15rem', height: "3px", backgroundColor: '#141E2E' }}></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style={{ width: '15rem', height: "3px", backgroundColor: '#141E2E' }}></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" style={{ width: '15rem', height: "3px", backgroundColor: '#141E2E' }}></button>
-            </div>
-            <div className="carousel-inner">
-              <div className="carousel-item active py-5">
-                <Comment image="/Icons/owner.png" author="Código Negro" job="Pentester" text="Lorem ipsum dolor sit amet sed, consectetur adipiscing elit Lorem ipsum dolor sit" />
-              </div>
-              <div className="carousel-item py-5">
-                <Comment image="/Icons/owner.png" author="Ariel Chama" job="Programador" text="Lorem ipsum dolor sit amet sed, consectetur adipiscing elit Lorem ipsum dolor sit" />
-              </div>
-              <div className="carousel-item py-5">
-                <Comment image="/Icons/owner.png" author="Anastácio Paulino" job="Programdor" text="Lorem ipsum dolor sit amet sed, consectetur adipiscing elit Lorem ipsum dolor sit" />
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
 
       <Partners />

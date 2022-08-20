@@ -2,7 +2,6 @@
 .container {
   display: flex;
   background: #f8f8f8;
-  display: flex;
   flex-direction: column;
   font-family: 'Lexend', sans-serif;
 }
@@ -447,7 +446,12 @@
     letter-spacing: 0.5px;
     font-size: 23px;
   }
+}
 
+@media (max-width: 396px) {
+  .thirdHomeContent {
+    padding: 4rem 0rem;
+  }
 }
 
 @media (min-width: 600px) {
@@ -487,6 +491,10 @@
 
   .thirdHomeinfo {
     font-size: 25px;
+  }
+
+  .fourthHomeContent {
+    padding-top: 8rem;
   }
 }
 
