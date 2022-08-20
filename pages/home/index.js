@@ -234,16 +234,12 @@ const Home = () => {
       </div>
 
       <div className={style.plans}>
-        <h2 className={style.secondHomeinfo}>
-          Soluções de segurança customizadas ao seu negócio
+        <h2 className={`${style.secondHomeinfo} text-center`}>
+          Soluções de segurança customizadas<br /> ao seu negócio
         </h2>
         <p className={style.secondInfo}>
-          Lorem ipsum dolor sit amet sed, consectetur adipiscing elit Lorem
-          ipsum dolor sit
-          <br /> amet sed, consectetur adipiscing elit Lorem ipsum dolor sit
-          amet sed
-          <br /> consectetur adipiscing elit Lorem ipsum dolor sit amet sed,
-          <br /> consectetur adipiscing elit
+          Nossos especialistas estão prontos para adaptar nossas soluções de<br />
+          serviços de segurança para atender às necessidades de sua organização.
         </p>
         <Link href="/contacts">
           <button>Contactos</button>
