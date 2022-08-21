@@ -162,7 +162,7 @@ const Plans = () => {
 						Você está pronto para melhorar sua arquitetura de segurança, proteger<br />
 						seu sistema e aprimorar seus processos de negócios?
 					</p>
-					<Link href="" className={styleMain.button}>
+					<Link href="https://athsec.org/contacts" className={styleMain.button}>
 						<button className={styleMain.button}>Iniciar</button>
 					</Link>
 				</div>
