@@ -92,8 +92,8 @@ const Menu = () => {
               <Link href="/partners">
                 <li>Parceiros</li>
               </Link>
-              <Link href="/">
-                <li>Recursos</li>
+              <Link href="https://athsec.org/contacts">
+                <li>Contactos</li>
               </Link>
             </ul>
           </div>
