@@ -189,7 +189,7 @@ const cdp = () => {
             sua organização e incluindo recomendações<br /> acionáveis ​​sobre como você
             pode otimizar seus níveis de proteção a curto, médio e longo prazo.
           </p>
-          <Link href="/contacts" className={styleMain.button}>
+          <Link href="https://athsec.org/contacts" className={styleMain.button}>
             <button className={styleMain.button}>Iniciar</button>
           </Link>
         </div>
