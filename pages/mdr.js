@@ -134,7 +134,7 @@ const index = () => {
             Nossas tecnologias gerenciadas de detecção e resposta e especialistas em
             segurança<br/> atendem seus negócios remotamente para mantê-lo<br/>  protegido para que você possa se concentrar em sua empresa.
           </p>
-          <Link href="/contacts" className={styleMain.button}>
+          <Link href="https://athsec.org/contacts" className={styleMain.button}>
             <button className={styleMain.button}>Iniciar</button>
           </Link>
         </div>
