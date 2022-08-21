@@ -36,6 +36,10 @@ const index = () => {
         </div>
 
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center", }}>
+          <img draggable="false" src="/Icons/Splunk-Corp-Logo-K-rgb.png" width={90} />
+        </div>
+
+        <div style={{ display: "flex", flexDirection: "column", alignItems: "center", }}>
           <img draggable="false" src="/Icons/Logo_Color_Small.png" width={90} />
         </div>
       </div>
