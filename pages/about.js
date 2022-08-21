@@ -22,7 +22,7 @@ const Plans = () => {
                   Cyber Defenders Workstation
                 </p>
 
-                <Link href="">
+                <Link href="https://athsec.org/contacts">
                   <button className={style.button}>Saber mais</button>
                 </Link>
               </div>
@@ -60,7 +60,7 @@ const Plans = () => {
               <img src="/Icons/vision.png" alt="" className="w-25" />
               <h5 className="fw-bold">VISÃO</h5>
               <p className="">
-                Ser o melhor provedor de valores para pequenas e grandes empresas
+                Ser o melhor provedor de valores para pequenas a grandes empresas
                 em soluções de Segurança da Informação e Segurança Cibernética para nossos clientes.
               </p>
             </div>
