@@ -16,7 +16,7 @@ const contacts = () => {
           <div className="container">
             <div className="row py-5">
               <div className="col-md-6 mt-5 text-light">
-                <h1 className={style.title}>Fale conosco e faça uma cotação </h1>
+                <h1 className={style.title}>Fale conosco e faça um Orçamento </h1>
                 <p className={style.texts}>
                   Nossos especialistas estão prontos para adaptar nossas soluções de serviços de segurança para atender às necessidades de sua organização.
                 </p>
