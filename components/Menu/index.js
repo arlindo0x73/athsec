@@ -10,8 +10,7 @@ const Menu = () => {
     <header className={menu.container}>
       <div>
         <div className={menu.fav}>
-          <link href="/home"><img src="/Icons/fav.png" style={{ cursor: "pointer", width: 100 }} /></link>
-
+          <img src="/Icons/fav.png" style={{ cursor: "pointer", width: 100 }} />
         </div>
       </div>
 
