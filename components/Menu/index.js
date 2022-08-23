@@ -95,13 +95,8 @@ const Menu = () => {
               <Link href="/partners" passHref>
                 <li>Parceiros</li>
               </Link>
-<<<<<<< HEAD
               <Link href="/" passHref>
                 <li>Recursos</li>
-=======
-              <Link href="https://athsec.org/contacts">
-                <li>Contactos</li>
->>>>>>> 5e2ea17afbc960d5a34402b99f7ccf323a065af6
               </Link>
             </ul>
           </div>

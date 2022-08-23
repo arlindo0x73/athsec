@@ -22,11 +22,7 @@ const Plans = () => {
                   Cyber Defenders Workstation
                 </p>
 
-<<<<<<< HEAD
                 <Link href="" passHref>
-=======
-                <Link href="https://athsec.org/contacts">
->>>>>>> 5e2ea17afbc960d5a34402b99f7ccf323a065af6
                   <button className={style.button}>Saber mais</button>
                 </Link>
               </div>

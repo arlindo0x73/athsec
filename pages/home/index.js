@@ -26,21 +26,12 @@ const Home = () => {
               adversários modernos.
             </p>
             <div className={style.homeButtons}>
-<<<<<<< HEAD
               <Link href="/contacts" passHref>
                 <button className={style.homeStart}>INICIAR</button>
               </Link>
 
               <Link href="#planos" passHref>
                 <button className={style.homePlans}>PLANOS</button>
-=======
-              <Link href="https://athsec.org/contacts">
-                <button className={style.homeStart}>INICIAR</button>
-              </Link>
-
-              <Link href="#planos">
-                <button className={style.homePlans}>Planos</button>
->>>>>>> 5e2ea17afbc960d5a34402b99f7ccf323a065af6
               </Link>
             </div>
           </div>
@@ -250,11 +241,7 @@ const Home = () => {
           Nossos especialistas estão prontos para adaptar nossas soluções de<br />
           serviços de segurança para atender às necessidades de sua organização.
         </p>
-<<<<<<< HEAD
         <Link href="/contacts" passHref>
-=======
-        <Link href="https://athsec.org/contacts">
->>>>>>> 5e2ea17afbc960d5a34402b99f7ccf323a065af6
           <button>Contactos</button>
         </Link>
       </div>
