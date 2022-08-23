@@ -22,7 +22,7 @@ const Plans = () => {
                   Cyber Defenders Workstation
                 </p>
 
-                <Link href="">
+                <Link href="" passHref>
                   <button className={style.button}>Saber mais</button>
                 </Link>
               </div>
@@ -57,7 +57,7 @@ const Plans = () => {
         <div className="py-5">
           <div className="row">
             <div className="col-md-4 text-center">
-              <img src="/Icons/vision.png" alt="" className="w-25" />
+              <Image src="/Icons/vision.png" alt="" width={100} height={100} />
               <h5 className="fw-bold">VISÃO</h5>
               <p className="">
                 Ser o melhor provedor de valores para pequenas e grandes empresas
@@ -65,7 +65,7 @@ const Plans = () => {
               </p>
             </div>
             <div className="col-md-4 text-center">
-              <img src="/Icons/vision.png" alt="" className="w-25" />
+              <Image src="/Icons/vision.png" alt="" width={100} height={100} />
               <h5 className="fw-bold">Foco no resultado</h5>
               <p className="">
                 Nossa equipe tabalha em estreita colaboração com nossos clientes para revisar os requisitos regulatórios, mandatos e
@@ -73,7 +73,7 @@ const Plans = () => {
               </p>
             </div>
             <div className="col-md-4 text-center">
-              <img src="/Icons/prevention.png" alt="" className="w-25" />
+              <Image src="/Icons/prevention.png" alt="" width={100} height={100} />
               <h5 className="fw-bold">Confiabilidade</h5>
               <p className="">
                 Nossos clientes podem sempre confiar connosco para cumprir nossos compromissos dentro do prazo e do orçamento.

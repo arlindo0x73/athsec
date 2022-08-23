@@ -2,6 +2,7 @@ import menu from './menu.module.css'
 import { useState } from "react";
 import Link from "next/link";
 import Alert from '../Alert'
+import Image from 'next/image';
 
 const Menu = () => {
   const [activeMenu, setActiveMenu] = useState(false);
@@ -9,8 +10,10 @@ const Menu = () => {
   return (
     <header className={menu.container}>
       <div>
-        <div className={menu.fav}>
-          <img src="/Icons/fav.png" style={{ cursor: "pointer", width: 100 }} />
+        <div className={menu.fav} style={{ cursor: "pointer" }}>
+          <Link href="/" passHref>
+            <Image src="/Icons/fav.png" width={100} height={33} alt="Logo da ATHSec" />
+          </Link>
         </div>
       </div>
 
@@ -83,16 +86,16 @@ const Menu = () => {
         <div className={menu.menuListContainer}>
           <div className={menu.menuList}>
             <ul>
-              <Link href="/home">
+              <Link href="/home" passHref>
                 <li>Home</li>
               </Link>
-              <Link href="/about">
+              <Link href="/about" passHref>
                 <li>Sobre</li>
               </Link>
-              <Link href="/partners">
+              <Link href="/partners" passHref>
                 <li>Parceiros</li>
               </Link>
-              <Link href="/">
+              <Link href="/" passHref>
                 <li>Recursos</li>
               </Link>
             </ul>

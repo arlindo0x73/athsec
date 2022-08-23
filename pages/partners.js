@@ -17,7 +17,7 @@ const partners = () => {
             <div className="row py-5">
               <div className="col-md-6 mt-5 text-light">
                 <h1 className={style.title}>Torne-se um parceiro da ATHSec hoje</h1>
-                <Link href="/contacts">
+                <Link href="/contacts" passHref>
                   <button className={style.button}>Saber mais</button>
                 </Link>
               </div>

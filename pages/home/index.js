@@ -26,11 +26,11 @@ const Home = () => {
               adversários modernos.
             </p>
             <div className={style.homeButtons}>
-              <Link href="/contacts">
+              <Link href="/contacts" passHref>
                 <button className={style.homeStart}>INICIAR</button>
               </Link>
 
-              <Link href="#planos">
+              <Link href="#planos" passHref>
                 <button className={style.homePlans}>PLANOS</button>
               </Link>
             </div>
@@ -93,7 +93,7 @@ const Home = () => {
             </p>
 
             <div className={style.secondAboutButtonGroup}>
-              <Link href="/enterprise">
+              <Link href="/enterprise" passHref>
                 <button className={style.secondAboutButton}>Enterprise</button>
               </Link>
             </div>
@@ -119,7 +119,7 @@ const Home = () => {
                 <div className={style.thirdButton}>
                   <div className={style.thirdButtonProfile}></div>
                   <div className={style.thirdButtonInfos}>
-                    <Link href="">
+                    <Link href="" passHref>
                       <h2>Nós arquitetamos</h2>
                     </Link>
                     <p>
@@ -130,7 +130,7 @@ const Home = () => {
                 <div className={style.thirdButton}>
                   <div className={style.thirdButtonProfile}></div>
                   <div className={style.thirdButtonInfos}>
-                    <Link href="">
+                    <Link href="" passHref>
                       <h2>Nós prevenimos</h2>
                     </Link>
                     <p>
@@ -145,7 +145,7 @@ const Home = () => {
                 <div className={style.thirdButton}>
                   <div className={style.thirdButtonProfile}></div>
                   <div className={style.thirdButtonInfos}>
-                    <Link href="">
+                    <Link href="" passHref>
                       <h2>Nós detectamos</h2>
                     </Link>
                     <p>
@@ -157,7 +157,7 @@ const Home = () => {
                 <div className={style.thirdButton}>
                   <div className={style.thirdButtonProfile}></div>
                   <div className={style.thirdButtonInfos}>
-                    <Link href="">
+                    <Link href="" passHref>
                       <h2>
                         & Reagimos 24x7
                       </h2>
@@ -189,28 +189,28 @@ const Home = () => {
         <div className={style.fourthCardsContainer}>
           <div className={style.fourthCard}>
             <div className={style.fourthCardImage}>
-              <img src="/Icons/Compliance.png" alt="Enterprise" />
+              <Image src="/Icons/Compliance.png" height={200} width={321} alt="Enterprise" />
             </div>
             <div className={style.fourthCardTexts}>
               <h2>Defesa cibernética empresarial</h2>
               <p>
                 Projetamos um ambiente arquitetônico de segurança cibernética empresarial.
               </p>
-              <Link href="/enterprise">
+              <Link href="/enterprise" passHref>
                 <button>Iniciar</button>
               </Link>
             </div>
           </div>
           <div className={style.fourthCard}>
             <div className={style.fourthCardImage}>
-              <img src="/Icons/CyberD.png" alt="Security Testing" />
+              <Image src="/Icons/CyberD.png" alt="Security Testing" height={200} width={321} />
             </div>
             <div className={style.fourthCardTexts}>
               <h2>Teste de Penetração / Avaliação de Vulnerabilidade</h2>
               <p>
                 Identificamos proativamente ameaças, vulnerabilidades e riscos de segurança cibernética.
               </p>
-              <Link href="/security-testing">
+              <Link href="/security-testing" passHref>
                 <button>Iniciar</button>
               </Link>
             </div>
@@ -218,14 +218,14 @@ const Home = () => {
 
           <div className={style.fourthCard}>
             <div className={style.fourthCardImage}>
-              <img src="/Icons/Red Team Operations.png" alt="MDR" />
+              <Image src="/Icons/Red Team Operations.png" alt="MDR" height={200} width={321} />
             </div>
             <div className={style.fourthCardTexts}>
               <h2>Detecção e resposta gerenciadas</h2>
               <p>
                 Rastreamos, caçamos e erradicamos ameaças.
               </p>
-              <Link href="/mdr">
+              <Link href="/mdr" passHref>
                 <button>Iniciar</button>
               </Link>
             </div>
@@ -241,7 +241,7 @@ const Home = () => {
           Nossos especialistas estão prontos para adaptar nossas soluções de<br />
           serviços de segurança para atender às necessidades de sua organização.
         </p>
-        <Link href="/contacts">
+        <Link href="/contacts" passHref>
           <button>Contactos</button>
         </Link>
       </div>

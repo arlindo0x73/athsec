@@ -44,7 +44,7 @@ const Footer = () => {
 
           <div className={style.links}>
             <Link href="/about">Company</Link>
-            <Link href="/partners">partners</Link>
+            <Link href="/partners" scroll={true}>partners</Link>
             <Link href="/policy">policy</Link>
           </div>
         </div>

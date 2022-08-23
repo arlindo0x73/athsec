@@ -290,11 +290,6 @@
   margin-bottom: 1rem;
 }
 
-.fourthCardImage img {
-  width: 100%;
-  height: 100%;
-}
-
 .fourthCardTexts {
   display: flex;
   flex-direction: column;
