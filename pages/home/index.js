@@ -16,14 +16,12 @@ const Home = () => {
       <div className={style.firstContainer} id="home">
         <div className={style.homeContent}>
           <div className={style.homeContentContainer}>
-            <h2 className={style.info}>
-              Nós colocamos o<br /> seu negocio sob <br /> nossa proteção
+            <h2 className={style.info} style={{ width: '20rem' }}>
+              Nós colocamos o eu negocio sob  nossa proteção
             </h2>
 
             <p className={style.secondInfo} style={{ width: '20rem' }}>
-              Damos às organizações a confiança de que
-              estão preparadas para combater os
-              adversários modernos.
+              Damos às organizações a confiança de que estão preparadas para combater os adversários modernos.
             </p>
             <div className={style.homeButtons}>
               <Link href="/contacts" passHref>
@@ -31,7 +29,7 @@ const Home = () => {
               </Link>
 
               <Link href="#planos" passHref>
-                <button className={style.homePlans}>PLANOS</button>
+                <button className={style.homePlans}>Planos</button>
               </Link>
             </div>
           </div>
@@ -59,7 +57,7 @@ const Home = () => {
             </svg>
             <div>
               <h2>CYBER SECURITY</h2>
-              <p>soluções e serviços de <br /> segurança cibernética</p>
+              <p>MSSP</p>
             </div>
           </div>
 
