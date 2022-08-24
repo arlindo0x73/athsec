@@ -12,7 +12,7 @@ const Menu = () => {
       <div>
         <div className={menu.fav} style={{ cursor: "pointer" }}>
           <Link href="/" passHref>
-            <Image src="/Icons/fav.png" width={100} height={33} alt="Logo da ATHSec" />
+            <Image src="/Icons/índice.jpg" width={40} height={40} alt="Logo da ATHSec" />
           </Link>
         </div>
       </div>
@@ -95,8 +95,8 @@ const Menu = () => {
               <Link href="/partners" passHref>
                 <li>Parceiros</li>
               </Link>
-              <Link href="/" passHref>
-                <li>Recursos</li>
+              <Link href="/Contacts" passHref>
+                <li>Contactos</li>
               </Link>
             </ul>
           </div>
