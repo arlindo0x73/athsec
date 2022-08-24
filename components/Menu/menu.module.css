@@ -149,12 +149,12 @@
 
 @media (min-width: 1500px) {
   .container {
-    padding: 0rem 10rem 0rem 10rem;
+    padding: 0rem 11rem 0rem 11rem;
   }
 }
 
 @media (min-width: 1690px) {
   .container {
-    padding: 0rem 12rem 0rem 12rem;
+    padding: 0rem 13rem 0rem 13rem;
   }
 }
