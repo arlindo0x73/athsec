@@ -17,7 +17,7 @@ const Home = () => {
         <div className={style.homeContent}>
           <div className={style.homeContentContainer}>
             <h2 className={style.info} style={{ width: '20rem' }}>
-              Seu negócio sob nossa proteção
+              Seu negócio sob nossa proteção digital
             </h2>
 
             <p className={style.secondInfo} style={{ width: '25rem' }}>
