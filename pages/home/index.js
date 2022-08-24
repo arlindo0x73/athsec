@@ -16,7 +16,7 @@ const Home = () => {
       <div className={style.firstContainer} id="home">
         <div className={style.homeContent}>
           <div className={style.homeContentContainer}>
-            <h2 className={style.info} style={{ width: '20rem' }}>
+            <h2 className={style.info} style={{ width: '25rem' }}>
               Seu negócio sob nossa proteção digital
             </h2>
 
