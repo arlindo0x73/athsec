@@ -21,7 +21,7 @@ const Home = () => {
             </h2>
 
             <p className={style.secondInfo} style={{ width: '25rem' }}>
-              Damos às organizações a confiança de que estão preparadas para combater os adversários modernos.
+              Damos às organizações a confiança de que estão preparadas para combater os adversários modernos, Assumindo com responsabilidade a capacidade de protegr as informaçoes privilegiadas nas organizações que assessoramos.
             </p>
             <div className={style.homeButtons}>
               <Link href="/contacts" passHref>
