@@ -133,13 +133,13 @@
 
 @media (min-width: 1300px) {
   .container {
-    padding: 0rem 4rem 0rem 4rem;
+    padding: 0rem 5rem 0rem 5rem;
   }
 }
 
 @media (min-width: 1400px) {
   .container {
-    padding: 0rem 6rem 0rem 6rem;
+    padding: 0rem 7rem 0rem 7rem;
   }
 
   .menuItem {
