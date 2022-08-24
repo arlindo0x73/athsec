@@ -42,10 +42,12 @@ const Plans = () => {
               <div className={style.texts}>
                 <p>
                   ATHSec™ é uma empresa de defesa cibernética que fornece Detecção e Resposta Gerenciadas,
-                  Avaliação de Segurança e Design de Arquitetura de
-                  Segurança, Trabalhamos para aumentar a resiliência contra a ciberameaças combinando
-                  nossas estratégias com seus objetivos de negócio. As equipes de resposta a incidentes da ATHSec
-                  ( Cyber Defenders Incident Response ) fornecem resposta rápida 24h/dia e investigação forense de uma violação.
+                  Avaliação de Segurança e Design de Arquitetura de Segurança. Planejamos, implementamos e 
+                  gerenciamos soluções abrangentes de segurança cibernética que protegem infraestruturas 
+                  de TI e atendem às necessidades de negócios. ATHSec trabalha com empresas para 
+                  desenvolver políticas e procedimentos que estabeleçam e governem uma cultura de segurança. 
+                  As equipes de resposta a incidentes da ATHSec ( Cyber Defenders Incident Response ) fornecem 
+                  resposta rápida 24h/dia e investigação forense de uma violação.
                 </p>
               </div>
             </div>
@@ -68,7 +70,7 @@ const Plans = () => {
               <Image src="/Icons/vision.png" alt="" width={100} height={100} />
               <h5 className="fw-bold">Foco no resultado</h5>
               <p className="">
-                Nossa equipe tabalha em estreita colaboração com nossos clientes para revisar os requisitos regulatórios, mandatos e
+                Nossa equipe trabalha em estreita colaboração com nossos clientes para revisar os requisitos regulatórios, mandatos e
                 leis estaduais, bem como as melhores práticas de segurança cibernética, para determinar as melhores soluções.
               </p>
             </div>
