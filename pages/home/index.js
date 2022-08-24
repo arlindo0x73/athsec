@@ -17,10 +17,10 @@ const Home = () => {
         <div className={style.homeContent}>
           <div className={style.homeContentContainer}>
             <h2 className={style.info} style={{ width: '20rem' }}>
-              Nós colocamos o eu negocio sob  nossa proteção
+              Seu negócio sob nossa proteção
             </h2>
 
-            <p className={style.secondInfo} style={{ width: '20rem' }}>
+            <p className={style.secondInfo} style={{ width: '25rem' }}>
               Damos às organizações a confiança de que estão preparadas para combater os adversários modernos.
             </p>
             <div className={style.homeButtons}>
