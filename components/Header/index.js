@@ -4,7 +4,6 @@ const Header = ({ title }) =>{
   return (
     <Head>
       <meta name="description" content="ATHSec™ é uma empresa de defesa cibernética que fornece Detecção e Resposta Gerenciadas, Avaliação de Segurança e Design de Arquitetura de Segurança" />
-      <meta name="keywords" content="Cyber Security, MSSP, MDR, SOC, CSIRT">
       <link rel="shortcut icon" href="/Icons/índice.jpg" />
       <title>{title}</title>
     </Head>
