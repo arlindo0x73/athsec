@@ -16,12 +16,12 @@ const Home = () => {
       <div className={style.firstContainer} id="home">
         <div className={style.homeContent}>
           <div className={style.homeContentContainer}>
-            <h2 className={style.info} style={{ width: '25rem' }}>
+            <h2 className={style.info} style={{ width: '20rem' }}>
               Seu negócio sob nossa proteção digital
             </h2>
 
             <p className={style.secondInfo} style={{ width: '25rem' }}>
-              Damos às organizações a confiança de que estão preparadas para combater os adversários modernos, Assumindo com responsabilidade a capacidade de protegr as informaçoes privilegiadas nas organizações que assessoramos.
+              Damos às organizações a confiança de que estão preparadas para combater os adversários modernos, Assumindo com responsabilidade a capacidade de proteger as informaçoes privilegiadas nas organizações que assessoramos.
             </p>
             <div className={style.homeButtons}>
               <Link href="/contacts" passHref>
