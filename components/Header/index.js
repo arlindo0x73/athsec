@@ -6,7 +6,7 @@ const Header = ({ title }) =>{
       <title>{title}</title>
       <link rel="shortcut icon" href="/Icons/índice.jpg" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta name="google-site-verification" content="google258244a0a3e8abaa" />
+      <meta name="google-site-verification" content="c40AJCNaZ8H_A-1KGC3BnVXiF2L4JQu38F9aeGYCya8" />
 
       <meta name="description" content="ATHSec™ é uma empresa de defesa cibernética que fornece Avaliação de Segurança, Design de Arquitetura de Segurança e Detecção e Resposta Gerenciada" />
       <meta name="title" content="ATHSec" />
