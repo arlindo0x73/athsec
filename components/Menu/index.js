@@ -95,7 +95,7 @@ const Menu = () => {
               <Link href="/partners" passHref>
                 <li>Parceiros</li>
               </Link>
-              <Link href="/Contacts" passHref>
+              <Link href="/contacts" passHref>
                 <li>Contactos</li>
               </Link>
             </ul>
