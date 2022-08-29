@@ -52,7 +52,7 @@ const Footer = () => {
 
       <div className={style.footerInfoBottom }>
         <div className="">
-          <p>Copyright 	&copy; Athsec 2022</p>
+          <p>Copyright 	&copy; ATHSec 2022</p>
         </div>
 
         <div className={style.footerLogos}>
