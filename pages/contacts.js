@@ -61,7 +61,7 @@ const contacts = () => {
       </div>
 
       <div className={style.calendly}>
-        <div className="calendly-inline-widget" data-url="https://calendly.com/athsec/consulting" style={{ minWidth: "320px", height: "630px" }}></div>
+        <div class="calendly-inline-widget" data-url="https://calendly.com/athsec/consulting?hide_event_type_details=1&hide_gdpr_banner=1" style="min-width:320px;height:630px;"></div>
         <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
       </div>
 
