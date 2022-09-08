@@ -189,7 +189,7 @@ const cdp = () => {
             sua organização e incluindo recomendações<br /> acionáveis ​​sobre como você
             pode otimizar seus níveis de proteção a curto, médio e longo prazo.
           </p>
-          <Link href="/contacts" className={styleMain.button} passHref>
+          <Link href="https://calendly.com/athsec/consulting" className={styleMain.button} passHref>
             <button className={styleMain.button}>Iniciar</button>
           </Link>
         </div>
