@@ -24,7 +24,7 @@ const Home = () => {
               Damos às organizações a confiança de que estão preparadas para combater os adversários modernos, Assumindo com responsabilidade a capacidade de proteger as informaçoes privilegiadas nas organizações que assessoramos.
             </p>
             <div className={style.homeButtons}>
-              <Link href="/contacts" passHref>
+              <Link href="https://calendly.com/athsec/consulting" passHref>
                 <button className={style.homeStart}>INICIAR</button>
               </Link>
 
